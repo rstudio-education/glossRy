@@ -1,0 +1,47 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 1em;
+    width: 60em;
+    line-height: 120%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 60em;
+    background-color: #f8f8f8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-bottom: solid 2px #808080;
+}
+
+main {
+    margin-top: 1em;
+}
+
+footer {
+    border-top: solid 1px #000000;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+img.footer {
+    vertical-align: middle;
+    height: 2em;
+    padding: 0.25em;
+}
+
+code {
+    font-family: Monaco,Courier New;
+    font-size: 80%;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 1em;
+}

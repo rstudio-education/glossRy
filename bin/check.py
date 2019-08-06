@@ -4,23 +4,22 @@ import sys
 import re
 
 
-PAT_ALL = re.compile(r'\*\*(.+?)\*\*', re.MULTILINE + re.DOTALL)
-PAT_DEFINED = re.compile(r'^\*\*(.+?)\*\*', re.MULTILINE + re.DOTALL)
-PAT_SPACE = re.compile(r'\s+', re.MULTILINE)
+PAT_REFERENCED = re.compile(r'\[.+?\]\(#(.+?)\)', re.MULTILINE + re.DOTALL)
+PAT_DEFINED = re.compile(r'^(.+?):\n:', re.MULTILINE)
 
 
 def main(reader):
     data = reader.read()
-    all_terms = get(data, PAT_ALL)
-    defined_terms = get(data, PAT_DEFINED)
-    missing = set(all_terms) - set(defined_terms)
+    referenced = PAT_REFERENCED.findall(data)
+    defined = [slugify(term) for term in PAT_DEFINED.findall(data)]
+    missing = set(referenced) - set(defined)
     for m in sorted(missing):
         print(m)
 
 
-def get(text, pattern):
-    return [PAT_SPACE.sub(' ', t.lower()) for t in pattern.findall(text)]
-
+def slugify(term):
+    return term.lower().replace(' ', '-').replace('(', '').replace(')', '')
+        
 
 if __name__ == '__main__':
     if len(sys.argv) == 1:
