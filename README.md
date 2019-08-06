@@ -48,26 +48,33 @@ Conduct](CONDUCT.md).
 **Aggregation function**: A function that combines many values into one, such as
   `sum` or `max`.
 
-**Alias**: to have two or more references to the same physical data.
+**Aliasing**: to have two or more references to the same physical data.
 
 **Anonymous function**: a function that has not been assigned a name.  Anonymous
   functions are usually quite short, and are usually defined where they are
   used, e.g., as callbacks.
+
+**Arguments**: the values passed into a function. Some authors use the term as
+  a synonym for **parameter** and some do not; it's all very confusing.
+
+**ASCII**: a standard way to represent the characters commonly used in the
+  Western European languages as 7- or 8-bit integers, now superceded by
+  **Unicode**.
 
 **Attribute**: a name-value pair associated with an object, used to store
   metadata about the object such as an array's dimensions.
 
 <h2 id="B">B</h2>
 
+**Backward-compatible**: FIXME
+
 **Base R**: FIXME
 
 **Binary**: FIXME
 
 **Branch**: A snapshot of a version of a Git repository. Multiple branches can
-  capture multiple versions of the same repository. A **feature** branch captures
-  the version of a repository that is under development and/or implements a new
-  feature or correction. A **master** branch is the snapshot of the main version
-  of a repository. See also **fork**.
+  capture multiple versions of the same repository. See also **feature branch**,
+  **fork**, and **master branch**.
 
 <h2 id="C">C</h2>
 
@@ -78,11 +85,13 @@ Conduct](CONDUCT.md).
 **Cascading Style Sheets**: A way to describe how HTML should be rendered.
 
 **Catch** (an exception): to accept responsibility for handling an error or
-  other unexpected event.  R prefers **handling** a **condition** to "catching an
-  exception".
+  other unexpected event.  R prefers "handling a condition" to "catching an
+  exception".  See also **condition** and **handle**.
 
 **Character encoding**: A specification of how characters are stored as
   bytes. The most commonly-used encoding today is **UTF-8**.
+
+**Class**: FIXME
 
 **Closure**: A set of variables defined in the same **scope** whose existence has
   been preserved after that scope has ended. Closures are one of the trickiest
@@ -95,13 +104,15 @@ Conduct](CONDUCT.md).
 **Condition**: an error or other unexpected event that disrupts the normal flow
   of control.  See also **handle**.
 
+**Constant**: FIXME
+
 **Constructor** (of a class): a function that creates an object of a particular
   class.  In the **S3** object system, constructors are a convention rather than a
   requirement.
 
-**Copy-on-modify**: the practice of creating a new copy of aliased** data
-  **whenever there is an attempt to modify it so that each reference will believe
-  **theirs is the only one.
+**Copy-on-modify**: the practice of creating a new copy of aliased data
+  whenever there is an attempt to modify it so that each reference will
+  believe theirs is the only one.  See **aliasing**.
 
 <h2 id="D">D</h2>
 
@@ -118,7 +129,7 @@ Conduct](CONDUCT.md).
 <h2 id="E">E</h2>
 
 **Empty vector**: a vector that contains no elements.  Empty vectors have a type
-  such as logical or character, and are **not** the same as **null**.
+  such as logical or character, and are *not* the same as **null**.
 
 **Environment**: a structure that stores a set of variable names and the values
   they refer to.
@@ -128,11 +139,11 @@ Conduct](CONDUCT.md).
   sequence `\"` is used to represent a double-quote character inside a
   double-quoted string.
 
-**Evaluation**: the process of taking a complex expression such as `1+2**3/4` and
+**Evaluation**: the process of taking a complex expression such as `1+2*3/4` and
   turning it into a single irreducible value.
 
 **Exception**: An object that stores information about an error or other unusual
-  event in a program. One part of a program will create and **throw** an exception
+  event in a program. One part of a program will create and **raise** an exception
   to signal that something unexpected has happened; another part will **catch**
   it.
 
@@ -140,19 +151,22 @@ Conduct](CONDUCT.md).
 
 **Falsy**: A horrible neologism meaning "equivalent to false". See also the
   equally horrible **truthy**.
-  
+
+**Feature branch**: FIXME
+
+**Field** (in a database table): FIXME
+
 **Fork**: A copy of one person's Git repository that lives in another person's
   GitHub account. Changes to the content of a fork can be submitted to the
-  **upstream** repository via a **pull request**. See also **branch**.
+  **upstream repository** via a **pull request**. See also **branch**.
 
 **Filter**: to choose a set of records according to the values they contain.
 
-**Fully qualified name**: an unambiguous name of the form `package::thing`.
+**Fully-qualified name**: an unambiguous name of the form `package::thing`.
 
 **Functional programming**: A style of programming in which data is transformed
   through successive application of functions, rather than by using control
-  structures such as loops. Functional programming in R relies heavily on
-  **higher-order functions**.
+  structures such as loops.  See also **higher-order function**.
 
 <h2 id="G">G</h2>
 
@@ -184,37 +198,38 @@ Conduct](CONDUCT.md).
 <h2 id="H">H</h2>
 
 **Handle** (a condition): to accept responsibility for handling an error or
-  other unexpected event.  R prefers **handling a condition** to "catching an
-  exception".
+  other unexpected event.  R prefers "handling a condition" to "catching an
+  exception".  See also **condition** and **exception**.
 
-**Header row**: If present, the first of a **CSV** file that defines column names
-  (but tragically, not their data types or units).
+**Header row**: If present, the first of a CSV file that defines column names
+  (but tragically, not their data types or units).  See also **comma-separated values**.
 
-**Heterogeneous**: Having mixed type. For example, an **array** is said to be
-  heterogeneous if it contains a mix of numbers, character strings, and values
-  of other types. See also **homogeneous**.
+**Heterogeneous**: Having mixed type. For example, an list can contain a mix of
+  numbers, character strings, and values of other types. See also
+  **homogeneous**.
 
 **Higher-order function**: A function that operates on other functions. For
   example, the higher-order function `map` executes a given function once on
   each value in an **list**. Higher-order functions are heavily used in
   **functional programming**.
 
-**Homogeneous**: Having a single type. For example, an **array** is said to be
-  homogeneous if it contains only numbers or only character strings, but not a
-  mix of the two.
+**Homogeneous**: Having a single type. For example, a **vector** must be
+  homogeneous: its values must all be numeric, logical, etc.
 
 **Hubris**: excessive pride or self-confidence.  See also **unit test** (lack of).
 
 <h2 id="I">I</h2>
+
+**Instance**: FIXME
 
 **Integrated Development Environment** (IDE): FIXME
 
 <h2 id="J">J</h2>
 
 **JSON**: A way to represent data by combining basic values like numbers and
-  character strings in **arrays** and name/value structures. The acronym stands
-  for "JavaScript Object Notation"; unlike better-defined standards like **XML**,
-  it is unencumbered by a syntax for comments or ways to define **schemas**.
+  character strings in lists and name/value structures. The acronym stands for
+  "JavaScript Object Notation"; unlike better-defined standards like **XML**, it
+  is unencumbered by a syntax for comments or ways to define a **schema**.
 
 **Lazy evaluation**: delaying evaluation of an expression until the value is
   actually needed (or at least until after the point where it is first
@@ -237,6 +252,8 @@ Conduct](CONDUCT.md).
 
 <h2 id="M">M</h2>
 
+**Master branch**: FIXME
+
 **Method**: an implementation of a **generic function** that handles objects of a
   specific class.
 
@@ -253,22 +270,24 @@ Conduct](CONDUCT.md).
 **Name collision**: The ambiguity that arises when two or more things in a
 
 **name collision**: The ambiguity that arises when two or more things in a
-  program that have the same name are active at the same time. The **call stack**
-  and **fully-qualified names** were invented in part to solve this problem.
+  program that have the same name are active at the same time. See also **call
+  stack** and **fully-qualified name**.
 
 **Negative selection**: to specify the elements of a vector or other data
-  structure that **aren't** desired by negating their indices.
+  structure that aren't desired by negating their indices.
 
 **Non-standard evaluation**: see **lazy evaluation**.
 
-**NoSQL database**: Any database that doesn't use the **relational** model.  The
+**NoSQL database**: Any database that doesn't use the relational model.  The
   awkward name comes from the fact that such databases don't use **SQL** as a
-  query language.
+  query language.  See also **relational database**.
 
 **Null**: a special value used to represent a missing object.  `NULL` is not the
   same as `NA`, and neither is the same as an **empty vector**.
 
 <h2 id="O">O</h2>
+
+**Observation**: FIXME
 
 <h2 id="P">P</h2>
 
@@ -295,23 +314,23 @@ Conduct](CONDUCT.md).
   to distinguish such code from test code, deployment infrastructure, and
   everything else that programmers write along the way.
 
-**Pseudo-random number**: A value generated in a repeatable way that has the
-  properties of being truly random.
+**Pseudo-random numbers**: Value generated in a repeatable way that resemble the
+  true randomness of the universe well enough to fool merely mortal observers.
 
-**Pseudo-random number generator**: A function that can generate a series of
-  **pseudo-random numbers** after being initialized with a **seed**.
+**Pseudo-random number generator**: A function that can generate **pseudo-random
+  numbers**.  See also **seed**.
   
 **Pull request**: The request to merge a new feature or correction created on a
-  user's fork of a Git repository into the **upstream** repository. The
+  user's fork of a Git repository into the **upstream repository**. The
   developer will be notified of the change, review it, make or suggest changes,
   and potentially merge it. See also **fork**.
 
-**Pull indexing**: vectorized indexing in which the value at location **i** in the
+**Pull indexing**: vectorized indexing in which the value at location `i` in the
   index vector specifies which element of the source vector is being pulled into
   that location in the result vector, i.e., `result[i] = source[index[i]]`.  See
   also **push indexing**.
 
-**Push indexing**: vectorized indexing in which the value at location **i** in the
+**Push indexing**: vectorized indexing in which the value at location `i` in the
   index vector specifies an element of the result vector that gets the
   corresponding element of the source vector, i.e., `result[index[i]] =
   source[i]`.  Push indexing can easily produce gaps and collisions.  See also
@@ -348,6 +367,8 @@ Conduct](CONDUCT.md).
   for the next command. REPLs are often used to explore new ideas or for
   debugging.
 
+**Record** (in a database table): FIXME
+
 **Recycle**: to re-use values from a shorter vector in order to generate a
   sequence of the same length as a longer one.
 
@@ -356,9 +377,9 @@ Conduct](CONDUCT.md).
   and are as powerful as they are cryptic.  See [this documentation][re-doc]
   for more details.
 
-**Relational database**: A database that organizes information into **tables**,
-  each of which has a fixed set of named **fields** (shown as columns) and a
-  variable number of **records** (shown as rows). See also **SQL**.
+**Relational database**: A database that organizes information into tables,
+  each of which has a fixed set of named fields (shown as columns) and a
+  variable number of records (shown as rows). See also **SQL**, **table**.
 
 **Relative path**: A path whose destination is interpreted relative to some
   other location, such as the current directory. A relative path is the
@@ -371,7 +392,7 @@ Conduct](CONDUCT.md).
   [reprex](https://github.com/tidyverse/reprex) package can help!
 
 **Relative row number**: the index of a row in a displayed portion of a table,
-  which may or may not be the same as the **absolut row number** within the table.
+  which may or may not be the same as the **absolute row number** within the table.
 
 **Repository**: FIXME
 
@@ -391,8 +412,11 @@ Conduct](CONDUCT.md).
 
 **Scalar**: FIXME
 
+**Schema**: a specification of the format of a dataset, including the name,
+  format, and content of each **table**.
+
 **Scope**: The portion of a program within which a definition can be seen and
-  used. See **global-variable**, **local-variable**, and **closure**.
+  used. See  **closure**, **global variable**, and **local variable**.
 
 **Script**: FIXME
 
@@ -404,7 +428,7 @@ Conduct](CONDUCT.md).
 
 **Signal** (a condition): a way of indicating that something has gone wrong in a
   program, or that some other unexpected event has occurred.  R prefers
-  **signalling** a **condition** to "raising an exception".
+  "signalling a condition" to "raising an exception".
 
 **Single square brackets**: an index enclosed in `[...]`, used to select a
   structure from another structure.  See also **double square brackets**.
@@ -412,8 +436,8 @@ Conduct](CONDUCT.md).
 **Singleton**: A set with only one element, or a **class** with only one
   **instance**.
 
-**SQL**: The language used for writing queries for **relational databases**. The
-  term was originally an acronym for Structured Query Language.
+**SQL**: The language used for writing queries for a **relational
+  database**. The term was originally an acronym for Structured Query Language.
 
 **String**: A block of text in a program. The term is short for "character
   string".
@@ -423,9 +447,10 @@ Conduct](CONDUCT.md).
 
 <h2 id="T">T</h2>
 
-**Table**: A set of uniformly-formatted **records** in a **relational database**.
-  Tables are usually drawn with rows (each of which represents one record) and
-  columns (each of which represents a **field**).
+**Table**: A set of records in a **relational database** or observations in a
+  **data frame**.  Tables are usually displayed as rows (each of which
+  represents one **record** or **observation**) and columns (each of which
+  represents a **field** or **variable**).
 
 **Tibble**: a modern replacement for R's data frame, which stores tabular data
   in columns and rows, defined and used in the **tidyverse**.
@@ -433,10 +458,8 @@ Conduct](CONDUCT.md).
 **Tidy data**: Tabular data that satisfies
   [three conditions](https://vita.had.co.nz/papers/tidy-data.pdf)
   that facilitate initial cleaning, and later exploration and analysis:
-
-1.  Each variable forms a column.
-2.  Each observation forms a row.
-3.  Each type of observation unit forms a table.
+  (1) each variable forms a column, (2) each observation forms a row,
+  and (3) each type of observation unit forms a table.  See also **table**.
 
 **tidymodels**: A collection of R packages for modeling and statistical
   analysis designed with a
@@ -465,15 +488,18 @@ Conduct](CONDUCT.md).
 
 <h2 id="V">V</h2>
 
-**Variable**: A name in a program that has some data associated with it. A
-  variable's value can be changed after definition. See also **constant**.
+**Variable** (in a program): A name in a program that has some data associated
+  with it. A variable's value can be changed after definition. See also
+  **constant**.
+
+**Variable** (in tabular data): FIXME
 
 **Variable arguments**: in a function, the ability to take any number of
   arguments.  R uses `...` to capture the "extra" arguments.
 
-**Vector**: a sequence of values, usually of homogeneous** type.  Vectors are the
-  fundamental data structure in R; **scalars** are actually vectors of unit
-  length.
+**Vector**: a sequence of values, usually of **homogeneous** type.  Vectors are
+  the fundamental data structure in R; a **scalar** is just a vector with
+  exactly one element.
 
 **Vectorize**: to write code so that operations are performed on entire vectors,
   rather than element-by-element within loops.
