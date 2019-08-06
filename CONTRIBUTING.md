@@ -13,6 +13,8 @@ To add, extend, amend, or correct a definition, please:
 
 5.  If you have a question about a definition, or would like help, please file issues tagged `question` and `help wanted` respectively.
 
+We are particularly grateful for contributions that fill in `FIXME` markers.
+
 By submitting material, you are agreeing to abide by our [Code of Conduct](CONDUCT.md)
 and to make your contribution available under the terms of our [license](LICENSE.md).
 All contributors will be acknowledged by name unless they request otherwise.
