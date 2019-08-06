@@ -6,7 +6,34 @@ contribution guidelines](CONTRIBUTING.md) if you would like to lend and hand,
 and please note that all contributors must abide by our [Code of
 Conduct](CONDUCT.md).
 
-## Definitions
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#F">F</a>
+<a href="#G">G</a>
+<a href="#H">H</a>
+<a href="#I">I</a>
+<a href="#J">J</a>
+<a href="#K">K</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#O">O</a>
+<a href="#P">P</a>
+<a href="#Q">Q</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#U">U</a>
+<a href="#V">V</a>
+<a href="#W">W</a>
+<a href="#X">X</a>
+<a href="#Y">Y</a>
+<a href="#Z">Z</a>
+
+<h2 id="A">A</h2>
 
 **Absolute path**: A path that points to the same location in the filesystem
   regardless of where it's evaluated. An absolute path is the equivalent of
@@ -30,11 +57,9 @@ Conduct](CONDUCT.md).
 **Attribute**: a name-value pair associated with an object, used to store
   metadata about the object such as an array's dimensions.
 
-**Base R**: FIXME
+<h2 id="B">B</h2>
 
-**Call stack**: A data structure that stores information about the active
-  subroutines executed. `cst()` is a useful function provided in the `lobstr`
-  package to visualize a call stack.
+**Base R**: FIXME
 
 **Binary**: FIXME
 
@@ -43,6 +68,12 @@ Conduct](CONDUCT.md).
   the version of a repository that is under development and/or implements a new
   feature or correction. A **master** branch is the snapshot of the main version
   of a repository. See also **fork**.
+
+<h2 id="C">C</h2>
+
+**Call stack**: A data structure that stores information about the active
+  subroutines executed. `cst()` is a useful function provided in the `lobstr`
+  package to visualize a call stack.
 
 **Cascading Style Sheets**: A way to describe how HTML should be rendered.
 
@@ -72,18 +103,22 @@ Conduct](CONDUCT.md).
   **whenever there is an attempt to modify it so that each reference will believe
   **theirs is the only one.
 
+<h2 id="D">D</h2>
+
 **Data frame**: FIXME
 
 **Double square brackets**: an index enclosed in `[[...]]`, used to return a
   single value of the underlying type.  See also **single square brackets**.
 
-**Empty vector**: a vector that contains no elements.  Empty vectors have a type
-  such as logical or character, and are **not** the same as **null**.
-
 **Data frame**: A class of objects that represents data and are typically used
   in fitting models.
 
 **Docker**: FIXME. 
+
+<h2 id="E">E</h2>
+
+**Empty vector**: a vector that contains no elements.  Empty vectors have a type
+  such as logical or character, and are **not** the same as **null**.
 
 **Environment**: a structure that stores a set of variable names and the values
   they refer to.
@@ -101,6 +136,8 @@ Conduct](CONDUCT.md).
   to signal that something unexpected has happened; another part will **catch**
   it.
 
+<h2 id="F">F</h2>
+
 **Falsy**: A horrible neologism meaning "equivalent to false". See also the
   equally horrible **truthy**.
   
@@ -116,6 +153,8 @@ Conduct](CONDUCT.md).
   through successive application of functions, rather than by using control
   structures such as loops. Functional programming in R relies heavily on
   **higher-order functions**.
+
+<h2 id="G">G</h2>
 
 **Generic function**: a collection of functions with similar purpose, each
   operating on a different class of data.
@@ -142,6 +181,8 @@ Conduct](CONDUCT.md).
 **GNU Public License**: A license that allows people to re-use software as long
   as they distribute the source of their changes.
 
+<h2 id="H">H</h2>
+
 **Handle** (a condition): to accept responsibility for handling an error or
   other unexpected event.  R prefers **handling a condition** to "catching an
   exception".
@@ -164,7 +205,11 @@ Conduct](CONDUCT.md).
 
 **Hubris**: excessive pride or self-confidence.  See also **unit test** (lack of).
 
+<h2 id="I">I</h2>
+
 **Integrated Development Environment** (IDE): FIXME
+
+<h2 id="J">J</h2>
 
 **JSON**: A way to represent data by combining basic values like numbers and
   character strings in **arrays** and name/value structures. The acronym stands
@@ -174,6 +219,10 @@ Conduct](CONDUCT.md).
 **Lazy evaluation**: delaying evaluation of an expression until the value is
   actually needed (or at least until after the point where it is first
   encountered).
+
+<h2 id="K">K</h2>
+
+<h2 id="L">L</h2>
 
 **List**: a **vector** that can contain values of many different types.
 
@@ -186,6 +235,8 @@ Conduct](CONDUCT.md).
 **Logical indexing**: to index a vector or other structure with a vector of
   Booleans, keeping only the values that correspond to true values.
 
+<h2 id="M">M</h2>
+
 **Method**: an implementation of a **generic function** that handles objects of a
   specific class.
 
@@ -194,6 +245,8 @@ Conduct](CONDUCT.md).
 
 **Mutation**: Changing data in place, such as modifying an element of an array
   or adding a record to a database.
+
+<h2 id="N">N</h2>
 
 **NA**: a special value used to represent data that is Not Available.
 
@@ -214,6 +267,10 @@ Conduct](CONDUCT.md).
 
 **Null**: a special value used to represent a missing object.  `NULL` is not the
   same as `NA`, and neither is the same as an **empty vector**.
+
+<h2 id="O">O</h2>
+
+<h2 id="P">P</h2>
 
 **Package**: a collection of code, data, and documentation that can be
   distributed and re-used.
@@ -245,9 +302,9 @@ Conduct](CONDUCT.md).
   **pseudo-random numbers** after being initialized with a **seed**.
   
 **Pull request**: The request to merge a new feature or correction created on a
-  user's fork of a git repository into the developer's main branch of the git
-  repository. The developer will be notified of the change, review it, make or
-  suggest changes, and potentially merge it. See also **fork**.
+  user's fork of a Git repository into the **upstream** repository. The
+  developer will be notified of the change, review it, make or suggest changes,
+  and potentially merge it. See also **fork**.
 
 **Pull indexing**: vectorized indexing in which the value at location **i** in the
   index vector specifies which element of the source vector is being pulled into
@@ -260,15 +317,15 @@ Conduct](CONDUCT.md).
   source[i]`.  Push indexing can easily produce gaps and collisions.  See also
   **pull indexing**.
 
+<h2 id="Q">Q</h2>
+
 **Quosure**: a data structure containing an unevaluated expression and its
   environment.
 
 **Quoting function**: a function that is passed expressions rather than the
   values of those expressions.
 
-**Pull request**: A way to tell others about changes you have made to a GitHub
-  repository. A few functions that can aid in your package development workflow
-  are provided in the [usethis](https://usethis.r-lib.org/reference/pr_init.html) package.
+<h2 id="R">R</h2>
 
 **R hub**: A free platform available to check a `R` package on several
   different platforms in preparation for the CRAN submission process.
@@ -278,6 +335,13 @@ Conduct](CONDUCT.md).
 **Raise**: To signal that something unexpected or unusual has happened in a
   program by creating an **exception** and handing it to the error-handling
   system, which then tries to find a point in the program that will **catch** it.
+
+**Reactive programming**: a style of programming in which actions are triggered
+  by external events.
+
+**Reactive variable**: a variable whose value is automatically updated when some
+  other value or values change.  Reactive variables are used extensively in
+  **Shiny**.
 
 **Read-evaluate-print loop** (REPL): An interactive program that reads a command
   typed in by a user, executes it, prints the result, and then waits patiently
@@ -314,6 +378,8 @@ Conduct](CONDUCT.md).
 **Root directory**: The directory that contains everything else, directly or
   indirectly. The root directory is written `/` (a bare forward slash).
 
+<h2 id="S">S</h2>
+
 **S**: A language originally developed in Bell Labs for data analysis,
   statistical modeling, and graphics. R is a dialect of S.
 
@@ -334,6 +400,8 @@ Conduct](CONDUCT.md).
 
 **Select**: to choose entire columns from a table by name or location.
 
+**Shiny**: FIXME
+
 **Signal** (a condition): a way of indicating that something has gone wrong in a
   program, or that some other unexpected event has occurred.  R prefers
   **signalling** a **condition** to "raising an exception".
@@ -341,7 +409,8 @@ Conduct](CONDUCT.md).
 **Single square brackets**: an index enclosed in `[...]`, used to select a
   structure from another structure.  See also **double square brackets**.
 
-**singleton**: A set whose cardinality is 1.
+**Singleton**: A set with only one element, or a **class** with only one
+  **instance**.
 
 **SQL**: The language used for writing queries for **relational databases**. The
   term was originally an acronym for Structured Query Language.
@@ -351,6 +420,8 @@ Conduct](CONDUCT.md).
 
 **String interpolation**: The process of inserting text corresponding to
   specified values into a string, usually to make output human-readable.
+
+<h2 id="T">T</h2>
 
 **Table**: A set of uniformly-formatted **records** in a **relational database**.
   Tables are usually drawn with rows (each of which represents one record) and
@@ -367,7 +438,6 @@ Conduct](CONDUCT.md).
 2.  Each observation forms a row.
 3.  Each type of observation unit forms a table.
 
-
 **tidymodels**: A collection of R packages for modeling and statistical
   analysis designed with a
   [shared philosophy](https://tidymodels.github.io/model-implementation-principles/index.html).
@@ -379,6 +449,8 @@ Conduct](CONDUCT.md).
   also **falsy**, but only if you are able to set aside your respect for the
   English language.
 
+<h2 id="U">U</h2>
+
 **Unicode**: A standard that defines numeric codes for many thousands of
   characters and symbols. Unicode does not define how those numbers are stored;
   that is done by standards like **UTF-8**.
@@ -386,8 +458,12 @@ Conduct](CONDUCT.md).
 **Unit test**: A test that exercises one property or expected behavior of a
   system.
 
+**Upstream repository**: FIXME
+
 **UTF-8**: A way to store the numeric codes representing Unicode characters in
   memory that is **backward-compatible** with the older **ASCII** standard.
+
+<h2 id="V">V</h2>
 
 **Variable**: A name in a program that has some data associated with it. A
   variable's value can be changed after definition. See also **constant**.
@@ -405,13 +481,21 @@ Conduct](CONDUCT.md).
 **Vignette**: a long-form guide used to provide details of a package beyond the
   README.md or function documentation.
 
+<h2 id="W">W</h2>
+
 **Whitespace**: The space, newline, carriage return, and horizontal and vertical
   tab characters that take up space but don't create a visible mark.  The name
   comes from their appearance on a printed page in the era of typewriters.
 
+<h2 id="X">X</h2>
+
 **XML**: A set of rules for defining HTML-like tags and using them to format
   documents (typically data). XML achieved license plate popularity in the early
   2000s, but its complexity led many programmers to adopt **JSON** instead.
+
+<h2 id="Y">Y</h2>
+
+<h2 id="Z">Z</h2>
 
 ## Contributors
 
