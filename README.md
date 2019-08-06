@@ -305,7 +305,9 @@ Conduct](CONDUCT.md).
 **Tibble**: a modern replacement for R's data frame, which stores tabular data
   in columns and rows, defined and used in the *tidyverse*.
 
-**Tidy data**: FIXME
+**Tidy data**: Data that adheres or has been transformed to adhere to certain
+standards that facilitate initial cleaning, and later exploration and analysis
+of the data ([Tidy data](https://vita.had.co.nz/papers/tidy-data.pdf)).
 
 **Tidyverse**: a collection of R packages for operating on tabular data in
   consistent ways.
