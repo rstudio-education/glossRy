@@ -17,6 +17,10 @@ Conduct](CONDUCT.md).
 
 **base R**: FIXME
 
+**binary**: FIXME
+
+**branch**: A snapshot of a version of a git repository. Multiple branches can capture multiple versions of the same repository. A *feature* branch captures the version of a repository that is under development and/or implements a new feature or correction. A *master* branch is the snapshot of the main version of a repository. See also **fork**.
+
 **Cascading Style Sheets**: A way to describe how HTML should be rendered.
 
 **character encoding**: A specification of how characters are stored as
@@ -44,11 +48,15 @@ Conduct](CONDUCT.md).
 
 **falsy**: A horrible neologism meaning "equivalent to false". See also the
   equally horrible *truthy*.
+  
+**fork**: A copy of a developer's git repository that lives on a user's git repository. Changes to the content of a repository should always be implemented on a fork and then merged into the developers repository via a **pull request**. See also **branch**.
 
 **functional programming**: A style of programming in which data is transformed
   through successive application of functions, rather than by using control
   structures such as loops. Functional programming in R relies heavily on
   *higher-order functions*.
+
+**git** A version control tool to manage changes of a project on your local machine. *GitHub* is a cloud-based provider of a tool build around *git* that allows you to save versions of your project online. 
 
 **global installation**: Installing a package in a location where it can be
   accessed by all users and projects. See also *local installation*.
@@ -128,6 +136,8 @@ Conduct](CONDUCT.md).
 
 **pseudo-random number generator**: A function that can generate a series of
   *pseudo-random numbers* after being initialized with a *seed*.
+  
+**pull request**: The request to merge a new feature or correction created on a user's fork of a git repository into the developer's main branch of the git repository. The developer will be notified of the change, review it, make or suggest changes, and potentially merge it. See also **fork**.
 
 **R Markdown**: FIXME
 
@@ -152,6 +162,8 @@ Conduct](CONDUCT.md).
   other location, such as the current directory. A relative path is the
   equivalent of giving directions using terms like "straight" and "left". See
   also *absolute path*.
+  
+**reprex**: A reproducible example. When asking questions about coding problems online or filing issues on GitHub, you should always include a *reprex* so others can reproduce your problem and help. The [reprex](https://github.com/tidyverse/reprex) package can help!
 
 **root directory**: The directory that contains everything else, directly or
   indirectly. The root directory is written `/` (a bare forward slash).
