@@ -32,6 +32,10 @@ Conduct](CONDUCT.md).
 
 **Base R**: FIXME
 
+**call stack**: A data structure that stores information about the active
+  subroutines executed. `cst()` is a useful function provided in the `lobstr`
+  package to visualize a call stack.
+
 **Cascading Style Sheets**: A way to describe how HTML should be rendered.
 
 **Catch** (an exception): to accept responsibility for handling an error or
@@ -67,6 +71,11 @@ Conduct](CONDUCT.md).
 
 **Empty vector**: a vector that contains no elements.  Empty vectors have a type
   such as logical or character, and are *not* the same as *null*.
+
+**Data frame**: A class of objects that represents data and are typically used
+  in fitting models.
+
+**Docker**: FIXME. 
 
 **Environment**: a structure that stores a set of variable names and the values
   they refer to.
@@ -170,6 +179,8 @@ Conduct](CONDUCT.md).
 **NA**: a special value used to represent data that is Not Available.
 
 **Name collision**: The ambiguity that arises when two or more things in a
+
+**name collision**: The ambiguity that arises when two or more things in a
   program that have the same name are active at the same time. The *call stack*
   and *fully-qualified names* were invented in part to solve this problem.
 
@@ -231,6 +242,13 @@ Conduct](CONDUCT.md).
 **Quoting function**: a function that is passed expressions rather than the
   values of those expressions.
 
+**Pull request**: A way to tell others about changes you have made to a GitHub
+  repository. A few functions that can aid in your package development workflow
+  are provided in the [usethis](https://usethis.r-lib.org/reference/pr_init.html) package.
+
+**R hub**: A free platform available to check a `R` package on several
+  different platforms in preparation for the CRAN submission process.
+
 **R Markdown**: FIXME
 
 **Raise**: To signal that something unexpected or unusual has happened in a
@@ -267,11 +285,16 @@ Conduct](CONDUCT.md).
 **Root directory**: The directory that contains everything else, directly or
   indirectly. The root directory is written `/` (a bare forward slash).
 
+**S**: A language originally developed in Bell Labs for data analysis,
+  statistical modeling, and graphics. R is a dialect of S.
+
 **S3**: a framework for object-oriented programming in R.
 
 **Scalar**: a single value of a particular type, such as 1 or "a".  Scalars
   don't really exist in R; values that appear to be scalars are actually vectors
   of unit length.
+
+**Scalar**: FIXME
 
 **Scope**: The portion of a program within which a definition can be seen and
   used. See *global-variable*, *local-variable*, and *closure*.
@@ -289,6 +312,8 @@ Conduct](CONDUCT.md).
 **Single square brackets**: an index enclosed in `[...]`, used to select a
   structure from another structure.  See also *double square brackets*.
 
+**singleton**: A set whose cardinality is 1.
+
 **SQL**: The language used for writing queries for *relational databases*. The
   term was originally an acronym for Structured Query Language.
 
@@ -305,7 +330,15 @@ Conduct](CONDUCT.md).
 **Tibble**: a modern replacement for R's data frame, which stores tabular data
   in columns and rows, defined and used in the *tidyverse*.
 
-**Tidy data**: FIXME
+**Tidy data**: Tabular data that satisfies
+  [three conditions](https://vita.had.co.nz/papers/tidy-data.pdf):
+
+1.  Each variable forms a column.
+2.  Each observation forms a row.
+3.  Each type of observation unit forms a table.
+
+**tidymodels**: A collection of modeling packages designed with a
+  [shared philosophy](https://tidymodels.github.io/model-implementation-principles/index.html).
 
 **Tidyverse**: a collection of R packages for operating on tabular data in
   consistent ways.
