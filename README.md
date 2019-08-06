@@ -39,29 +39,29 @@ Conduct](CONDUCT.md).
   regardless of where it's evaluated. An absolute path is the equivalent of
   latitude and longitude in geography. See also **relative path**.
 
-**Absolute row number**: the sequential index of a row in a table, regardless of
+**Absolute row number**: The sequential index of a row in a table, regardless of
   what sections of the table is being displayed.
 
-**Aggregation**: to combine many values into one, e.g., by summing a set of
+**Aggregation**: To combine many values into one, e.g., by summing a set of
   numbers or concatenating a set of strings.
 
 **Aggregation function**: A function that combines many values into one, such as
   `sum` or `max`.
 
-**Aliasing**: to have two or more references to the same physical data.
+**Aliasing**: To have two or more references to the same physical data.
 
-**Anonymous function**: a function that has not been assigned a name.  Anonymous
+**Anonymous function**: A function that has not been assigned a name.  Anonymous
   functions are usually quite short, and are usually defined where they are
   used, e.g., as callbacks.
 
-**Arguments**: the values passed into a function. Some authors use the term as
+**Arguments**: The values passed into a function. Some authors use the term as
   a synonym for **parameter** and some do not; it's all very confusing.
 
-**ASCII**: a standard way to represent the characters commonly used in the
+**ASCII**: A standard way to represent the characters commonly used in the
   Western European languages as 7- or 8-bit integers, now superceded by
   **Unicode**.
 
-**Attribute**: a name-value pair associated with an object, used to store
+**Attribute**: A name-value pair associated with an object, used to store
   metadata about the object such as an array's dimensions.
 
 <h2 id="B">B</h2>
@@ -71,6 +71,8 @@ Conduct](CONDUCT.md).
 **Base R**: FIXME
 
 **Binary**: FIXME
+
+**Binding**: FIXME
 
 **Branch**: A snapshot of a version of a Git repository. Multiple branches can
   capture multiple versions of the same repository. See also **feature branch**,
@@ -84,7 +86,7 @@ Conduct](CONDUCT.md).
 
 **Cascading Style Sheets**: A way to describe how HTML should be rendered.
 
-**Catch** (an exception): to accept responsibility for handling an error or
+**Catch** (an exception): To accept responsibility for handling an error or
   other unexpected event.  R prefers "handling a condition" to "catching an
   exception".  See also **condition** and **handle**.
 
@@ -97,20 +99,22 @@ Conduct](CONDUCT.md).
   been preserved after that scope has ended. Closures are one of the trickiest
   ideas in programming.
 
+**Coercion**: see **type coercion**.
+
 **Comma-Separated Values**: A text format for tabular data in which each record
   is one row and fields are separated by commas. There are many minor
   variations, particularly around quoting of strings.
 
-**Condition**: an error or other unexpected event that disrupts the normal flow
+**Condition**: An error or other unexpected event that disrupts the normal flow
   of control.  See also **handle**.
 
 **Constant**: FIXME
 
-**Constructor** (of a class): a function that creates an object of a particular
+**Constructor** (of a class): A function that creates an object of a particular
   class.  In the **S3** object system, constructors are a convention rather than a
   requirement.
 
-**Copy-on-modify**: the practice of creating a new copy of aliased data
+**Copy-on-modify**: The practice of creating a new copy of aliased data
   whenever there is an attempt to modify it so that each reference will
   believe theirs is the only one.  See **aliasing**.
 
@@ -118,20 +122,27 @@ Conduct](CONDUCT.md).
 
 **Data frame**: FIXME
 
-**Double square brackets**: an index enclosed in `[[...]]`, used to return a
+**Double square brackets**: An index enclosed in `[[...]]`, used to return a
   single value of the underlying type.  See also **single square brackets**.
 
 **Data frame**: A class of objects that represents data and are typically used
   in fitting models.
 
-**Docker**: FIXME. 
+**Docker**: FIXME.
+
+**Double**: Short for "double-precision floating-point number", meaning a 64-bit
+  numeric value with a fractional part and an exponent.
+
+**Dynamic scoping**: FIXME.  See **lexical scoping**.
 
 <h2 id="E">E</h2>
 
-**Empty vector**: a vector that contains no elements.  Empty vectors have a type
+**Eager evaluation**: FIXME.  See also **lazy evaluation**.
+
+**Empty vector**: A vector that contains no elements.  Empty vectors have a type
   such as logical or character, and are *not* the same as **null**.
 
-**Environment**: a structure that stores a set of variable names and the values
+**Environment**: A structure that stores a set of variable names and the values
   they refer to.
 
 **Escape sequence**: A sequence of characters used to represent some other
@@ -139,7 +150,7 @@ Conduct](CONDUCT.md).
   sequence `\"` is used to represent a double-quote character inside a
   double-quoted string.
 
-**Evaluation**: the process of taking a complex expression such as `1+2*3/4` and
+**Evaluation**: The process of taking a complex expression such as `1+2*3/4` and
   turning it into a single irreducible value.
 
 **Exception**: An object that stores information about an error or other unusual
@@ -160,9 +171,9 @@ Conduct](CONDUCT.md).
   GitHub account. Changes to the content of a fork can be submitted to the
   **upstream repository** via a **pull request**. See also **branch**.
 
-**Filter**: to choose a set of records according to the values they contain.
+**Filter**: To choose a set of records according to the values they contain.
 
-**Fully-qualified name**: an unambiguous name of the form `package::thing`.
+**Fully-qualified name**: An unambiguous name of the form `package::thing`.
 
 **Functional programming**: A style of programming in which data is transformed
   through successive application of functions, rather than by using control
@@ -170,17 +181,17 @@ Conduct](CONDUCT.md).
 
 <h2 id="G">G</h2>
 
-**Generic function**: a collection of functions with similar purpose, each
+**Generic function**: A collection of functions with similar purpose, each
   operating on a different class of data.
 
-**Global environment**: the **environment** that holds top-level definitions in R,
+**Global environment**: The **environment** that holds top-level definitions in R,
   e.g., those written directly in the interpreter.
 
 **Global installation**: Installing a package in a location where it can be
 
 **Git** A version control tool to record and manage changes to a project.
 
-**GitHub**: a cloud-based platform built around **Git** that allows you to save
+**GitHub**: A cloud-based platform built around **Git** that allows you to save
   versions of your project online and collaborate with other Git users.
 
 **Global installation**: Installing a package in a location where it can be
@@ -189,7 +200,7 @@ Conduct](CONDUCT.md).
 **Global variable**: A variable defined outside any particular function, which
   is therefore visible to all functions. See also **local variable**.
 
-**Group**: to divide data into subsets according to some criteria while leaving
+**Group**: To divide data into subsets according to some criteria while leaving
   records in a single structure.
 
 **GNU Public License**: A license that allows people to re-use software as long
@@ -197,7 +208,7 @@ Conduct](CONDUCT.md).
 
 <h2 id="H">H</h2>
 
-**Handle** (a condition): to accept responsibility for handling an error or
+**Handle** (a condition): To accept responsibility for handling an error or
   other unexpected event.  R prefers "handling a condition" to "catching an
   exception".  See also **condition** and **exception**.
 
@@ -216,7 +227,7 @@ Conduct](CONDUCT.md).
 **Homogeneous**: Having a single type. For example, a **vector** must be
   homogeneous: its values must all be numeric, logical, etc.
 
-**Hubris**: excessive pride or self-confidence.  See also **unit test** (lack of).
+**Hubris**: Excessive pride or self-confidence.  See also **unit test** (lack of).
 
 <h2 id="I">I</h2>
 
@@ -231,7 +242,7 @@ Conduct](CONDUCT.md).
   "JavaScript Object Notation"; unlike better-defined standards like **XML**, it
   is unencumbered by a syntax for comments or ways to define a **schema**.
 
-**Lazy evaluation**: delaying evaluation of an expression until the value is
+**Lazy evaluation**: Delaying evaluation of an expression until the value is
   actually needed (or at least until after the point where it is first
   encountered).
 
@@ -239,7 +250,9 @@ Conduct](CONDUCT.md).
 
 <h2 id="L">L</h2>
 
-**List**: a **vector** that can contain values of many different types.
+**Lexical scoping**: FIXME.  See **dynamic scoping**.
+
+**List**: A **vector** that can contain values of many different types.
 
 **Local installation**: Placing a package inside a particular project so that it
   is only accessible within that project. See also **global installation**.
@@ -247,14 +260,16 @@ Conduct](CONDUCT.md).
 **Local variable**: A variable defined inside a function which is only visible
   within that function. See also **global variable** and **closure**.
 
-**Logical indexing**: to index a vector or other structure with a vector of
+**Logical indexing**: To index a vector or other structure with a vector of
   Booleans, keeping only the values that correspond to true values.
 
 <h2 id="M">M</h2>
 
 **Master branch**: FIXME
 
-**Method**: an implementation of a **generic function** that handles objects of a
+**Merge** (in Git): FIXME
+
+**Method**: An implementation of a **generic function** that handles objects of a
   specific class.
 
 **MIT License**: A license that allows people to re-use software with no
@@ -265,7 +280,7 @@ Conduct](CONDUCT.md).
 
 <h2 id="N">N</h2>
 
-**NA**: a special value used to represent data that is Not Available.
+**NA**: A special value used to represent data that is Not Available.
 
 **Name collision**: The ambiguity that arises when two or more things in a
 
@@ -273,16 +288,16 @@ Conduct](CONDUCT.md).
   program that have the same name are active at the same time. See also **call
   stack** and **fully-qualified name**.
 
-**Negative selection**: to specify the elements of a vector or other data
+**Negative selection**: To specify the elements of a vector or other data
   structure that aren't desired by negating their indices.
 
-**Non-standard evaluation**: see **lazy evaluation**.
+**Non-standard evaluation**: See **lazy evaluation**.
 
 **NoSQL database**: Any database that doesn't use the relational model.  The
   awkward name comes from the fact that such databases don't use **SQL** as a
   query language.  See also **relational database**.
 
-**Null**: a special value used to represent a missing object.  `NULL` is not the
+**Null**: A special value used to represent a missing object.  `NULL` is not the
   same as `NA`, and neither is the same as an **empty vector**.
 
 <h2 id="O">O</h2>
@@ -291,7 +306,7 @@ Conduct](CONDUCT.md).
 
 <h2 id="P">P</h2>
 
-**Package**: a collection of code, data, and documentation that can be
+**Package**: A collection of code, data, and documentation that can be
   distributed and re-used.
 
 **Package manager**: A program that does its best to keep track of the bits and
@@ -305,7 +320,7 @@ Conduct](CONDUCT.md).
 **Parse**: To translate the text of a program or web page into a data structure
   in memory that the program can then manipulate.
 
-**Pipe operator**: the `%>%` used to make the output of one function the input
+**Pipe operator**: The `%>%` used to make the output of one function the input
   of the next.
 
 **Prefix operator**: FIXME
@@ -325,12 +340,12 @@ Conduct](CONDUCT.md).
   developer will be notified of the change, review it, make or suggest changes,
   and potentially merge it. See also **fork**.
 
-**Pull indexing**: vectorized indexing in which the value at location `i` in the
+**Pull indexing**: Vectorized indexing in which the value at location `i` in the
   index vector specifies which element of the source vector is being pulled into
   that location in the result vector, i.e., `result[i] = source[index[i]]`.  See
   also **push indexing**.
 
-**Push indexing**: vectorized indexing in which the value at location `i` in the
+**Push indexing**: Vectorized indexing in which the value at location `i` in the
   index vector specifies an element of the result vector that gets the
   corresponding element of the source vector, i.e., `result[index[i]] =
   source[i]`.  Push indexing can easily produce gaps and collisions.  See also
@@ -338,10 +353,10 @@ Conduct](CONDUCT.md).
 
 <h2 id="Q">Q</h2>
 
-**Quosure**: a data structure containing an unevaluated expression and its
+**Quosure**: A data structure containing an unevaluated expression and its
   environment.
 
-**Quoting function**: a function that is passed expressions rather than the
+**Quoting function**: A function that is passed expressions rather than the
   values of those expressions.
 
 <h2 id="R">R</h2>
@@ -355,10 +370,10 @@ Conduct](CONDUCT.md).
   program by creating an **exception** and handing it to the error-handling
   system, which then tries to find a point in the program that will **catch** it.
 
-**Reactive programming**: a style of programming in which actions are triggered
+**Reactive programming**: A style of programming in which actions are triggered
   by external events.
 
-**Reactive variable**: a variable whose value is automatically updated when some
+**Reactive variable**: A variable whose value is automatically updated when some
   other value or values change.  Reactive variables are used extensively in
   **Shiny**.
 
@@ -367,9 +382,11 @@ Conduct](CONDUCT.md).
   for the next command. REPLs are often used to explore new ideas or for
   debugging.
 
+**Rebase** (in Git): FIXME
+
 **Record** (in a database table): FIXME
 
-**Recycle**: to re-use values from a shorter vector in order to generate a
+**Recycle**: To re-use values from a shorter vector in order to generate a
   sequence of the same length as a longer one.
 
 **Regular expression**: A pattern for matching text, written as text
@@ -388,10 +405,10 @@ Conduct](CONDUCT.md).
   
 **Reprex**: A reproducible example. When asking questions about coding problems
   online or filing issues on GitHub, you should always include a **reprex** so
-  others can reproduce your problem and help. The
-  [reprex](https://github.com/tidyverse/reprex) package can help!
+  others can reproduce your problem and help. The [reprex][reprex] package can
+  help!
 
-**Relative row number**: the index of a row in a displayed portion of a table,
+**Relative row number**: The index of a row in a displayed portion of a table,
   which may or may not be the same as the **absolute row number** within the table.
 
 **Repository**: FIXME
@@ -404,15 +421,17 @@ Conduct](CONDUCT.md).
 **S**: A language originally developed in Bell Labs for data analysis,
   statistical modeling, and graphics. R is a dialect of S.
 
-**S3**: a framework for object-oriented programming in R.
+**S3**: A framework for object-oriented programming in R.
 
-**Scalar**: a single value of a particular type, such as 1 or "a".  Scalars
+**Sr**: A framework for object-oriented programming in R.
+
+**Scalar**: A single value of a particular type, such as 1 or "a".  Scalars
   don't really exist in R; values that appear to be scalars are actually vectors
   of unit length.
 
 **Scalar**: FIXME
 
-**Schema**: a specification of the format of a dataset, including the name,
+**Schema**: A specification of the format of a dataset, including the name,
   format, and content of each **table**.
 
 **Scope**: The portion of a program within which a definition can be seen and
@@ -422,15 +441,15 @@ Conduct](CONDUCT.md).
 
 **Seed**: A value used to initialize a **pseudo-random number generator**.
 
-**Select**: to choose entire columns from a table by name or location.
+**Select**: To choose entire columns from a table by name or location.
 
 **Shiny**: FIXME
 
-**Signal** (a condition): a way of indicating that something has gone wrong in a
+**Signal** (a condition): A way of indicating that something has gone wrong in a
   program, or that some other unexpected event has occurred.  R prefers
   "signalling a condition" to "raising an exception".
 
-**Single square brackets**: an index enclosed in `[...]`, used to select a
+**Single square brackets**: An index enclosed in `[...]`, used to select a
   structure from another structure.  See also **double square brackets**.
 
 **Singleton**: A set with only one element, or a **class** with only one
@@ -438,6 +457,10 @@ Conduct](CONDUCT.md).
 
 **SQL**: The language used for writing queries for a **relational
   database**. The term was originally an acronym for Structured Query Language.
+
+**Squash** (in Git): FIXME
+
+**Stack frame**: FIXME
 
 **String**: A block of text in a program. The term is short for "character
   string".
@@ -452,25 +475,25 @@ Conduct](CONDUCT.md).
   represents one **record** or **observation**) and columns (each of which
   represents a **field** or **variable**).
 
-**Tibble**: a modern replacement for R's data frame, which stores tabular data
+**Tibble**: A modern replacement for R's data frame, which stores tabular data
   in columns and rows, defined and used in the **tidyverse**.
 
-**Tidy data**: Tabular data that satisfies
-  [three conditions](https://vita.had.co.nz/papers/tidy-data.pdf)
-  that facilitate initial cleaning, and later exploration and analysis:
-  (1) each variable forms a column, (2) each observation forms a row,
-  and (3) each type of observation unit forms a table.  See also **table**.
+**Tidy data**: Tabular data that satisfies [three conditions][tidy-data] that
+  facilitate initial cleaning, and later exploration and analysis: (1) each
+  variable forms a column, (2) each observation forms a row, and (3) each type
+  of observation unit forms a table.  See also **table**.
 
-**tidymodels**: A collection of R packages for modeling and statistical
-  analysis designed with a
-  [shared philosophy](https://tidymodels.github.io/model-implementation-principles/index.html).
+**tidymodels**: A collection of R packages for modeling and statistical analysis
+  designed with a [shared philosophy][tidymodels].
 
-**Tidyverse**: a collection of R packages for operating on tabular data in
+**Tidyverse**: A collection of R packages for operating on tabular data in
   consistent ways.
 
 **Truthy**: A truly Orwellian neologism meaning "not equivalent to false". See
   also **falsy**, but only if you are able to set aside your respect for the
   English language.
+
+**Type coercion**: FIXME
 
 <h2 id="U">U</h2>
 
@@ -494,17 +517,17 @@ Conduct](CONDUCT.md).
 
 **Variable** (in tabular data): FIXME
 
-**Variable arguments**: in a function, the ability to take any number of
+**Variable arguments**: In a function, the ability to take any number of
   arguments.  R uses `...` to capture the "extra" arguments.
 
-**Vector**: a sequence of values, usually of **homogeneous** type.  Vectors are
+**Vector**: A sequence of values, usually of **homogeneous** type.  Vectors are
   the fundamental data structure in R; a **scalar** is just a vector with
   exactly one element.
 
-**Vectorize**: to write code so that operations are performed on entire vectors,
+**Vectorize**: To write code so that operations are performed on entire vectors,
   rather than element-by-element within loops.
 
-**Vignette**: a long-form guide used to provide details of a package beyond the
+**Vignette**: A long-form guide used to provide details of a package beyond the
   README.md or function documentation.
 
 <h2 id="W">W</h2>
@@ -528,6 +551,12 @@ Conduct](CONDUCT.md).
 -   [Therese Anders](https://dornsife.usc.edu/anders)
 -   [Marly Cormar](http://www.marlycormar.com/)
 -   [Joyce Cahoon](https://jcahoon.netlify.com/)
+-   [Dewey Dunnington](https://fishandwhistle.net/)
+-   [Maya Gans](https://maya.rbind.io/)
+-   [Leslie Huang](https://leslie-huang.github.io/)
 -   [Greg Wilson](http://third-bit.com)
 
 [re-doc]: https://stringr.tidyverse.org/articles/regular-expressions.html
+[reprex]: https://github.com/tidyverse/reprex
+[tidy-data]: https://vita.had.co.nz/papers/tidy-data.pdf
+[tidymodels]: https://tidymodels.github.io/model-implementation-principles/index.html
