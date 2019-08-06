@@ -1,0 +1,3 @@
+repository: <USERNAME>/<PROJECT>
+kramdown:
+  toc_levels: "2"
