@@ -17,6 +17,10 @@ Conduct](CONDUCT.md).
 
 **base R**: FIXME
 
+**call stack**: A data structure that stores information about the active
+  subroutines executed. `cst()` is a useful function provided in the `lobstr`
+  package to visualize a call stack.
+
 **Cascading Style Sheets**: A way to describe how HTML should be rendered.
 
 **character encoding**: A specification of how characters are stored as
@@ -30,7 +34,9 @@ Conduct](CONDUCT.md).
   is one row and fields are separated by commas. There are many minor
   variations, particularly around quoting of strings.
 
-**data frame**: FIXME
+**data frame**: A class of objects that represents data and are typically used in fitting models.
+
+**docker**: FIXME. 
 
 **escape sequence**: A sequence of characters used to represent some other
   character that would otherwise have a special meaning. For example, the escape
@@ -96,6 +102,8 @@ Conduct](CONDUCT.md).
 **restrictions.  mutation**: Changing data in place, such as modifying an
 **element of an array or adding a record to a database.
 
+**multiverse**: FIXME.
+
 **name collision**: The ambiguity that arises when two or more things in a
   program that have the same name are active at the same time. The *call stack*
   was invented in part to address this problem.
@@ -129,6 +137,13 @@ Conduct](CONDUCT.md).
 **pseudo-random number generator**: A function that can generate a series of
   *pseudo-random numbers* after being initialized with a *seed*.
 
+**pull request**: A way to tell others about changes you have made to a GitHub
+  repository. A few functions that can aid in your package development workflow
+  are provided in the [usethis](https://usethis.r-lib.org/reference/pr_init.html) package.
+
+**R hub**: A free platform available to check a `R` package on several
+  different platforms in preparation for the CRAN submission process.
+
 **R Markdown**: FIXME
 
 **raise**: To signal that something unexpected or unusual has happened in a
@@ -156,6 +171,9 @@ Conduct](CONDUCT.md).
 **root directory**: The directory that contains everything else, directly or
   indirectly. The root directory is written `/` (a bare forward slash).
 
+**S**: A language that was originally developed in Bell Labs for data analysis,
+  statistical modeling and graphics. `R` is a dialect of the `S` language.
+
 **scalar**: FIXME
 
 **scope**: The portion of a program within which a definition can be seen and
@@ -164,6 +182,8 @@ Conduct](CONDUCT.md).
 **script**: FIXME
 
 **seed**: A value used to initialize a *pseudo-random number generator*.
+
+**singleton**: A set whose cardinality is 1.
 
 **SQL**: The language used for writing queries for *relational databases*. The
   term was originally an acronym for Structured Query Language.
@@ -180,7 +200,15 @@ Conduct](CONDUCT.md).
 
 **tibble**: FIXME
 
-**tidy data**: FIXME
+**tidy data**: A standard way of mapping the meaning of a dataset to its
+  structure. Tidy data is characterized by three properties: (1) each variable
+  forms a column; (2) each observation forms a row; and (3) each type of
+  observation unit forms a table. See the seminal paper about tidy data
+  [here](https://vita.had.co.nz/papers/tidy-data.pdf). 
+
+**tidymodels**: A collection of modeling packages designed with a shared
+  philosophy. This common design is further elucided
+  [here](https://tidymodels.github.io/model-implementation-principles/index.html).
 
 **tidyverse**: FIXME
 
