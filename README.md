@@ -376,6 +376,7 @@ Conduct](CONDUCT.md).
 
 ## Contributors
 
+-   [Joyce Cahoon](https://jcahoon.netlify.com/)
 -   [Greg Wilson](http://third-bit.com)
 
 [re-doc]: https://stringr.tidyverse.org/articles/regular-expressions.html
