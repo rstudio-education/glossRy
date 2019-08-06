@@ -360,11 +360,13 @@ Conduct](CONDUCT.md).
   in columns and rows, defined and used in the **tidyverse**.
 
 **Tidy data**: Tabular data that satisfies
-  [three conditions](https://vita.had.co.nz/papers/tidy-data.pdf):
+  [three conditions](https://vita.had.co.nz/papers/tidy-data.pdf)
+  that facilitate initial cleaning, and later exploration and analysis:
 
 1.  Each variable forms a column.
 2.  Each observation forms a row.
 3.  Each type of observation unit forms a table.
+
 
 **tidymodels**: A collection of modeling packages designed with a
   [shared philosophy](https://tidymodels.github.io/model-implementation-principles/index.html).
@@ -406,6 +408,7 @@ Conduct](CONDUCT.md).
 ## Contributors
 
 -   [Therese Anders](https://dornsife.usc.edu/anders)
+-   [Marly Cormar](http://www.marlycormar.com/)
 -   [Joyce Cahoon](https://jcahoon.netlify.com/)
 -   [Greg Wilson](http://third-bit.com)
 
