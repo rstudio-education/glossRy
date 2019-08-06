@@ -374,6 +374,9 @@ Conduct](CONDUCT.md).
 **Tidyverse**: a collection of R packages for operating on tabular data in
   consistent ways.
 
+**Tidymodels**: a collection of R packages for modeling and statistical
+analysis.
+
 **Truthy**: A truly Orwellian neologism meaning "not equivalent to false". See
   also **falsy**, but only if you are able to set aside your respect for the
   English language.
@@ -400,6 +403,9 @@ Conduct](CONDUCT.md).
 
 **Vectorize**: to write code so that operations are performed on entire vectors,
   rather than element-by-element within loops.
+
+**Vignette**: a long-form guide used to provide details of a package beyond
+the README.md or function documentation.
 
 **Whitespace**: The space, newline, carriage return, and horizontal and vertical
   tab characters that take up space but don't create a visible mark.  The name
