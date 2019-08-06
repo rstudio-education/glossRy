@@ -368,14 +368,12 @@ Conduct](CONDUCT.md).
 3.  Each type of observation unit forms a table.
 
 
-**tidymodels**: A collection of modeling packages designed with a
+**tidymodels**: A collection of R packages for modeling and statistical
+  analysis designed with a
   [shared philosophy](https://tidymodels.github.io/model-implementation-principles/index.html).
 
 **Tidyverse**: a collection of R packages for operating on tabular data in
   consistent ways.
-
-**Tidymodels**: a collection of R packages for modeling and statistical
-analysis.
 
 **Truthy**: A truly Orwellian neologism meaning "not equivalent to false". See
   also **falsy**, but only if you are able to set aside your respect for the
@@ -404,12 +402,16 @@ analysis.
 **Vectorize**: to write code so that operations are performed on entire vectors,
   rather than element-by-element within loops.
 
-**Vignette**: a long-form guide used to provide details of a package beyond
-the README.md or function documentation.
+**Vignette**: a long-form guide used to provide details of a package beyond the
+  README.md or function documentation.
 
 **Whitespace**: The space, newline, carriage return, and horizontal and vertical
   tab characters that take up space but don't create a visible mark.  The name
   comes from their appearance on a printed page in the era of typewriters.
+
+**XML**: A set of rules for defining HTML-like tags and using them to format
+  documents (typically data). XML achieved license plate popularity in the early
+  2000s, but its complexity led many programmers to adopt **JSON** instead.
 
 ## Contributors
 
