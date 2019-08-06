@@ -340,6 +340,9 @@ analysis.
 **Vectorize**: to write code so that operations are performed on entire vectors,
   rather than element-by-element within loops.
 
+**Vignette**: a long-form guide used to provide details of a package beyond
+the README.md or function documentation.
+
 **Whitespace**: The space, newline, carriage return, and horizontal and vertical
   tab characters that take up space but don't create a visible mark.  The name
   comes from their appearance on a printed page in the era of typewriters.
