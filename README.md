@@ -9,8 +9,9 @@ Conduct](CONDUCT.md).
 ## Definitions
 
 **Absolute path**: A path that points to the same location in the filesystem
-  regardless of where it's evaluated. An absolute path is the equivalent of
-  latitude and longitude in geography. See also *relative path*.
+  regardless of where it's evaluated. A relative path is the
+  equivalent of giving directions using terms like "east" and "north".
+  See also *relative path*.
 
 **Absolute row number**: the sequential index of a row in a table, regardless of
   what sections of the table is being displayed.
@@ -21,7 +22,8 @@ Conduct](CONDUCT.md).
 **Aggregation function**: A function that combines many values into one, such as
   `sum` or `max`.
 
-**Alias**: to have two or more references to the same physical data.
+**Alias**: to have two or more references to the same thing (e.g., physical data,
+  file, folder, command, package library, etc).
 
 **Anonymous function**: a function that has not been assigned a name.  Anonymous
   functions are usually quite short, and are usually defined where they are
@@ -30,9 +32,12 @@ Conduct](CONDUCT.md).
 **Attribute**: a name-value pair associated with an object, used to store
   metadata about the object such as an array's dimensions.
 
-**Base R**: FIXME
+**Base R**: FIXME. See also *tidyverse*.
 
-**Cascading Style Sheets**: A way to describe how HTML should be rendered.
+**Cascading Style Sheets**: A way to describe how HTML should be rendered and look
+  in the browser.
+  These are typiclly things like font size, font color, font face, borders,
+  default spacing, etc.
 
 **Catch** (an exception): to accept responsibility for handling an error or
   other unexpected event.  R prefers *handling* a *condition* to "catching an
@@ -60,7 +65,8 @@ Conduct](CONDUCT.md).
   *whenever there is an attempt to modify it so that each reference will believe
   *theirs is the only one.
 
-**Data frame**: FIXME
+**Data frame**: Tabular data stored in memory. These typically have 2-dimensions,
+  Rows representing records, and columns representing variables. See *tidy data*.
 
 **Double square brackets**: an index enclosed in `[[...]]`, used to return a
   single value of the underlying type.  See also *single square brackets*.
@@ -76,7 +82,7 @@ Conduct](CONDUCT.md).
   sequence `\"` is used to represent a double-quote character inside a
   double-quoted string.
 
-**Evaluation**: the process of taking a complex expression such as `1+2*3/4` and
+**Evaluation**: the process of taking an expression such as `1+2*3/4` and
   turning it into a single irreducible value.
 
 **Exception**: An object that stores information about an error or other unusual
@@ -87,7 +93,7 @@ Conduct](CONDUCT.md).
 **Falsy**: A horrible neologism meaning "equivalent to false". See also the
   equally horrible *truthy*.
 
-**Filter**: to choose a set of records according to the values they contain.
+**Filter**: to choose a set of records (i.e., rows) according to the values they contain.
 
 **Fully qualified name**: an unambiguous name of the form `package::thing`.
 
@@ -105,7 +111,8 @@ Conduct](CONDUCT.md).
 **Global installation**: Installing a package in a location where it can be
   accessed by all users and projects. See also *local installation*.
 
-**Global variable**: A variable defined outside any particular function, which
+**Global variable**: A variable defined outside any particular function
+  (typically in the **global environment**), which
   is therefore visible to all functions. See also *local variable*.
 
 **Group**: to divide data into subsets according to some criteria while leaving
@@ -118,7 +125,7 @@ Conduct](CONDUCT.md).
   other unexpected event.  R prefers *handling a condition* to "catching an
   exception".
 
-**Header row**: If present, the first of a *CSV* file that defines column names
+**Header row**: If present, the first line of a *CSV* file that defines column names
   (but tragically, not their data types or units).
 
 **Heterogeneous**: Having mixed type. For example, an *array* is said to be
@@ -136,11 +143,15 @@ Conduct](CONDUCT.md).
 
 **Hubris**: excessive pride or self-confidence.  See also *unit test* (lack of).
 
-**Integrated Development Environment** (IDE): FIXME
+**Integrated Development Environment** (IDE): Software application that provide
+  a suite of features to aid programmers in in developing software.
+  They typically have a built in editor and console to execture and return executed
+  code values.  See **Read-evaluate-print loop**.
 
-**JSON**: A way to represent data by combining basic values like numbers and
-  character strings in *arrays* and name/value structures. The acronym stands
-  for "JavaScript Object Notation"; unlike better-defined standards like *XML*,
+**JSON** (Javascript Object Notation):
+  A way to represent data by combining basic values like numbers and
+  character strings in *arrays* and name/value structures.
+  Unlike better-defined standards like *XML*,
   it is unencumbered by a syntax for comments or ways to define *schemas*.
 
 **Lazy evaluation**: delaying evaluation of an expression until the value is
@@ -148,6 +159,8 @@ Conduct](CONDUCT.md).
   encountered).
 
 **List**: a *vector* that can contain values of many different types.
+
+**Literate programming**: A programming paradigm that interweaves code with prose.
 
 **Local installation**: Placing a package inside a particular project so that it
   is only accessible within that project. See also *global installation*.
@@ -157,6 +170,7 @@ Conduct](CONDUCT.md).
 
 **Logical indexing**: to index a vector or other structure with a vector of
   Booleans, keeping only the values that correspond to true values.
+  Also referted to as **masking**.
 
 **Method**: an implementation of a *generic function* that handles objects of a
   specific class.
@@ -168,6 +182,7 @@ Conduct](CONDUCT.md).
   or adding a record to a database.
 
 **NA**: a special value used to represent data that is Not Available.
+  See **Null**.
 
 **Name collision**: The ambiguity that arises when two or more things in a
   program that have the same name are active at the same time. The *call stack*
@@ -186,10 +201,10 @@ Conduct](CONDUCT.md).
   same as `NA`, and neither is the same as an *empty vector*.
 
 **Package**: a collection of code, data, and documentation that can be
-  distributed and re-used.
+  distributed and re-used.  Sometimes refered to as a **library**.
 
 **Package manager**: A program that does its best to keep track of the bits and
-  bobs of software installed on a computer.
+  bobs (i.e., dependencies) of software installed on a computer.
 
 **Parameter**: A variable whose value is passed into a function when the
   function is called. Some writers distinguish parameters (the variables) from
@@ -231,7 +246,9 @@ Conduct](CONDUCT.md).
 **Quoting function**: a function that is passed expressions rather than the
   values of those expressions.
 
-**R Markdown**: FIXME
+**R Markdown**: A special document written in **markdown** that allows the user
+  to have code, its output, along with prose text in a single document.
+  See **literate programming**.
 
 **Raise**: To signal that something unexpected or unusual has happened in a
   program by creating an *exception* and handing it to the error-handling
@@ -240,7 +257,7 @@ Conduct](CONDUCT.md).
 **Read-evaluate-print loop** (REPL): An interactive program that reads a command
   typed in by a user, executes it, prints the result, and then waits patiently
   for the next command. REPLs are often used to explore new ideas or for
-  debugging.
+  debugging.  See **Integrated Development Environment** and **console**.
 
 **Recycle**: to re-use values from a shorter vector in order to generate a
   sequence of the same length as a longer one.
@@ -262,7 +279,9 @@ Conduct](CONDUCT.md).
 **Relative row number**: the index of a row in a displayed portion of a table,
   which may or may not be the same as the *absolut row number* within the table.
 
-**Repository**: FIXME
+**Repository**: In programming, this commonly refers to a place where code
+  (and sometimes data) is stored.  For example, GitHub is a popular service
+  that hosts code repositories using the *Git* version control system.
 
 **Root directory**: The directory that contains everything else, directly or
   indirectly. The root directory is written `/` (a bare forward slash).
@@ -276,7 +295,7 @@ Conduct](CONDUCT.md).
 **Scope**: The portion of a program within which a definition can be seen and
   used. See *global-variable*, *local-variable*, and *closure*.
 
-**Script**: FIXME
+**Script**: Lines of code that is meant to be executed in order from top to bottom.
 
 **Seed**: A value used to initialize a *pseudo-random number generator*.
 
@@ -305,9 +324,12 @@ Conduct](CONDUCT.md).
 **Tibble**: a modern replacement for R's data frame, which stores tabular data
   in columns and rows, defined and used in the *tidyverse*.
 
-**Tidy data**: FIXME
+**Tidy data**: A standarized format of data that has 3 properties:
+  (1) Each variable forms a column.
+  (2) Each overservation forms a row.
+  (3) Each type of observational unit forms a table.
 
-**Tidyverse**: a collection of R packages for operating on tabular data in
+**Tidyverse**: An opionated collection of R packages for operating on tabular data in
   consistent ways.
 
 **Truthy**: A truly Orwellian neologism meaning "not equivalent to false". See
@@ -344,5 +366,6 @@ Conduct](CONDUCT.md).
 ## Contributors
 
 -   [Greg Wilson](http://third-bit.com)
+-   [Daniel Chen](https://daniel.rbind.io)
 
 [re-doc]: https://stringr.tidyverse.org/articles/regular-expressions.html
