@@ -25,7 +25,8 @@ Aggregation function:
 :   A function that combines many values into one, such as `sum` or `max`.
 
 Aliasing:
-:   To have two or more references to the same physical data.
+:   To have two or more references to the same thing, such as a data structure
+    in memory or a file on disk.
 
 Anonymous function:
 :   A function that has not been assigned a name.  Anonymous functions are usually
@@ -51,7 +52,7 @@ Backward-compatible:
 :   FIXME
 
 Base R:
-:   FIXME
+:   FIXME.  See also [tidyverse](#tidyverse).
 
 Binary:
 :   FIXME
@@ -72,8 +73,9 @@ Call stack:
     executed. `cst()` is a useful function provided in the `lobstr` package to
     visualize a call stack.
 
-Cascading Style Sheets:
-:   A way to describe how HTML should be rendered.
+Cascading Style Sheets (CSS):
+:   A way to control the appearance of HTML.  CSS is typically used to specify
+    fonts, colors, and layout.
 
 Catch (exception):
 :   To accept responsibility for handling an error or other unexpected event.  R
@@ -121,7 +123,9 @@ Copy-on-modify:
 
 {:auto_ids}
 Data frame:
-:   FIXME
+:   A two-dimensional data structure for storing tabular data in memory.
+    Rows represent [records](#record-database) and columns represent [variables](variable-data).
+    See [tidy data](#tidy-data).
 
 Double square brackets:
 :   An index enclosed in `[[...]]`, used to return a single value of the
@@ -160,7 +164,7 @@ Escape sequence:
     used to represent a double-quote character inside a double-quoted string.
 
 Evaluation:
-:   The process of taking a complex expression such as `1+2*3/4` and turning it
+:   The process of taking an expression such as `1+2*3/4` and turning it
     into a single irreducible value.
 
 Exception:
@@ -189,7 +193,8 @@ Fork:
     also [branch](#branch).
 
 Filter:
-:   To choose a set of records according to the values they contain.
+:   To choose a set of [records](#record-database) (i.e., rows of a table) based
+    on the values they contain.
 
 Fully-qualified name:
 :   An unambiguous name of the form `package::thing`.
@@ -245,8 +250,9 @@ Handle (condition):
     exception".  See also [condition](#condition), [exception](#exception).
 
 Header row:
-:   If present, the first of a CSV file that defines column names (but tragically,
-    not their data types or units).  See also [comma-separated values](#comma-separated-values).
+:   If present, the first row of a CSV file that defines column names (but
+    tragically, not their data types or units).  See also [comma-separated
+    values](#comma-separated-values).
 
 Heterogeneous:
 :   Having mixed type. For example, an list can contain a mix of numbers,
@@ -272,7 +278,10 @@ Instance:
 :   FIXME
 
 Integrated Development Environment (IDE):
-:   FIXME
+:   An application that helps programmers develop software.
+    IDEs typically have a built-in editor, a console to execute code immediately,
+    and browsers for exploring data structures in memory and files on disk.
+    See also [Read-eval-print loop](#read-eval-print-loop-repl).
 
 <h2 id="J">J</h2>
 
@@ -295,8 +304,14 @@ Lazy evaluation:
 Lexical scoping:
 :   FIXME.  See [dynamic scoping](#dynamic-scoping).
 
+Library:
+:   See [package](#package).
+
 List:
 :   A [vector](#vector) that can contain values of many different types.
+
+Literate programming:
+:   A programming paradigm that mixes prose and code.  See also [R Markdown](#r-markdown).
 
 Local installation:
 :   Placing a package inside a particular project so that it is only accessible
@@ -308,11 +323,17 @@ Local variable:
 
 Logical indexing:
 :   To index a vector or other structure with a vector of Booleans, keeping only
-    the values that correspond to true values.
+    the values that correspond to true values.  Also referred to as [masking](#masking).
 
 <h2 id="M">M</h2>
 
 {:auto_ids}
+Markdown:
+:   FIXME
+
+Masking:
+:   See [logical indexing](#logical-indexing).
+
 Master branch:
 :   FIXME
 
@@ -326,6 +347,9 @@ Method:
 MIT License:
 :   A license that allows people to re-use software with no restrictions.
 
+Module:
+:   See [package](#package).
+
 Mutation:
 :   Changing data in place, such as modifying an element of an array or adding a
     record to a database.
@@ -334,10 +358,7 @@ Mutation:
 
 {:auto_ids}
 NA:
-:   A special value used to represent data that is Not Available.
-
-Name collision:
-:   The ambiguity that arises when two or more things in a
+:   A special value used to represent data that is not available.  See also [null](#null).
 
 name collision:
 :   The ambiguity that arises when two or more things in a program that have the
@@ -371,11 +392,12 @@ Observation:
 {:auto_ids}
 Package:
 :   A collection of code, data, and documentation that can be distributed and
-    re-used.
+    re-used.  Also referred to in some languages as a [library](#library) or
+    [module](#module).
 
 Package manager:
 :   A program that does its best to keep track of the bits and bobs of software
-    installed on a computer.
+    installed on a computer and their dependencies on one another.
 
 Parameter:
 :   A variable whose value is passed into a function when the function is
@@ -443,7 +465,9 @@ R hub:
     platforms in preparation for the CRAN submission process.
 
 R Markdown:
-:   FIXME
+:   A dialect of [Markdown](#markdown) that allows authors to mix prose
+    and code (usually written in R) in a single document.  See also
+    [literate programming](#literate-programming).
 
 Raise:
 :   To signal that something unexpected or unusual has happened in a program by
@@ -457,13 +481,14 @@ Reactive variable:
 :   A variable whose value is automatically updated when some other value or
     values change.  Reactive variables are used extensively in [Shiny](#shiny).
 
-Read-evaluate-print loop
-:   REPL): An interactive program that reads a command typed in by a user,
+Read-eval-print loop (REPL):
+:   An interactive program that reads a command typed in by a user,
     executes it, prints the result, and then waits patiently for the next
     command. REPLs are often used to explore new ideas or for debugging.
+    See also [Integrated Development Environment](#integrated-development-environment-ide).
 
-Rebase
-:   in Git): FIXME
+Rebase:
+:   FIXME
 
 Record (database):
 :   FIXME
@@ -498,7 +523,9 @@ Relative row number:
     the same as the [absolute row number](#absolute-row-number) within the table.
 
 Repository:
-:   FIXME
+:   A place where a [version control system](#version-control-system) stores
+    the files that make up a project and the metadata that describes their history.
+    See also [Git](#git), [GitHub](#github).
 
 Root directory:
 :   The directory that contains everything else, directly or indirectly. The root
@@ -534,7 +561,8 @@ Scope:
     [closure](#closure), [global variable](#global-variable), and [local variable](#local-variable).
 
 Script:
-:   FIXME
+:   Originally, a program written in a language too usable for "real" programmers
+    to take seriously; the term is now synonymous with program.
 
 Seed:
 :   A value used to initialize a [pseudo-random number generator](#pseudo-random-number-generator).
@@ -650,6 +678,9 @@ Vectorize:
 :   To write code so that operations are performed on entire vectors, rather than
     element-by-element within loops.
 
+Version control system:
+:   FIXME
+
 Vignette:
 :   A long-form guide used to provide details of a package beyond the README.md or
     function documentation.
@@ -679,6 +710,7 @@ XML:
 -   [Therese Anders](https://dornsife.usc.edu/anders)
 -   [Marly Cormar](http://www.marlycormar.com/)
 -   [Joyce Cahoon](https://jcahoon.netlify.com/)
+-   [Daniel Chen](https://chendaniely.github.io)
 -   [Dewey Dunnington](https://fishandwhistle.net/)
 -   [Maya Gans](https://maya.rbind.io/)
 -   [Leslie Huang](https://leslie-huang.github.io/)
