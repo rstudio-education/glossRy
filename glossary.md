@@ -28,6 +28,12 @@ Aliasing:
 :   To have two or more references to the same thing, such as a data structure
     in memory or a file on disk.
 
+Application Programming Interface (API):
+:   A set of functions and procedures provided by one software library or web service
+    through which another application can communicate with it.
+    An API is not the code, the database, or the server:
+    it's the access point.
+
 Anonymous function:
 :   A function that has not been assigned a name.  Anonymous functions are usually
     quite short, and are usually defined where they are used, e.g., as
@@ -64,6 +70,12 @@ Branch:
 :   A snapshot of a version of a Git repository. Multiple branches can capture
     multiple versions of the same repository. See also [feature branch](#feature-branch),
     [fork](#fork), [master branch](#master-branch).
+
+Breadcrumbs:
+:   A set of supplementary navigational links included in many websites, usually placed at the top of the page.
+    Breadcrumbs show the users where the current page lies in the website;
+    the term comes from a fairy tale in which children left a trail of breadcrumbs behind themselves
+    so that they could find their way home.
 
 <h2 id="C">C</h2>
 
@@ -119,6 +131,18 @@ Copy-on-modify:
     attempt to modify it so that each reference will believe theirs is the only
     one.  See [aliasing](#aliasing).
 
+Creative Commons licenses:
+:   A set of licenses that can be applied to published work.
+    Each license is formed by concatenating one or more of:
+
+    -   `-BY` (Attribution): users must cite the original source.
+    -   `-SA` (ShareAlike): users must share their own work under a similar license.
+    -   `-NC` (NonCommercial): work may not be used for commercial purposes without the creator's permission.
+    -   `-ND` (NoDerivatives): no derivative works (e.g., translations) can be created without the creator's permission.
+
+    Thus, `CC-BY-NC` means "users must give attribution and cannot use commercially without permission.
+    The term `CC-0` (zero, not letter 'O') is sometimes used to mean "no restrictions", i.e., the work is in the public domain.
+
 <h2 id="D">D</h2>
 
 {:auto_ids}
@@ -157,6 +181,11 @@ Empty vector:
 
 Environment:
 :   A structure that stores a set of variable names and the values they refer to.
+
+Error handling:
+:   What a program does to detect and correct for errors.
+    Examples include printing a message and
+    using a default configuration if the user-specified configuration can't be found.
 
 Escape sequence:
 :   A sequence of characters used to represent some other character that would
@@ -409,6 +438,14 @@ Parse:
 :   To translate the text of a program or web page into a data structure in memory
     that the program can then manipulate.
 
+Parsons Problem:
+:   An assessment technique developed by Dale Parsons and others
+    in which learners rearrange given material to construct a correct answer to a question.
+
+Permalink:
+:   Short for "permanent link", the full URL that you see and use for a post, page, or a site's content.
+    An example could be `https://www.mysite.com/category/post-name`.
+
 Pipe operator:
 :   The `%>%` used to make the output of one function the input of the next.
 
@@ -585,6 +622,10 @@ Single square brackets:
 Singleton:
 :   A set with only one element, or a [class](#class) with only one [instance](#instance).
 
+Slug:
+:   An abbreviated portion of a page's URL that uniquely identifies it.
+    In the example `https://www.mysite.com/category/post-name`, the slug is `post-name`.
+
 SQL:
 :   The language used for writing queries for a [relational database](#relational-database). The term
     was originally an acronym for Structured Query Language.
@@ -647,6 +688,7 @@ Unicode:
 
 Unit test:
 :   A test that exercises one property or expected behavior of a system.
+    FIXME: provide example.
 
 Upstream repository:
 :   FIXME
@@ -711,6 +753,7 @@ XML:
 -   [Marly Cormar](http://www.marlycormar.com/)
 -   [Joyce Cahoon](https://jcahoon.netlify.com/)
 -   [Daniel Chen](https://chendaniely.github.io)
+-   [Desirée De Leon](http://desiree.rbind.io/)
 -   [Dewey Dunnington](https://fishandwhistle.net/)
 -   [Maya Gans](https://maya.rbind.io/)
 -   [Leslie Huang](https://leslie-huang.github.io/)
