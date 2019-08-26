@@ -49,10 +49,10 @@ Attribute:
 
 {:auto_ids}
 Backward-compatible:
-:   FIXME
+:   Software which is able to use earlier versions of itself (legacy) without problems.
 
 Base R:
-:   FIXME.  See also [tidyverse](#tidyverse).
+:   The basic functions making up the R language. See also [tidyverse](#tidyverse).
 
 Binary:
 :   FIXME
@@ -119,6 +119,9 @@ Copy-on-modify:
     attempt to modify it so that each reference will believe theirs is the only
     one.  See [aliasing](#aliasing).
 
+CRAN:
+:   The comprehensive R archive network (CRAN). Hosts R packages. See [base R](#base-R) [tidyverse](#tidyverse).
+
 <h2 id="D">D</h2>
 
 {:auto_ids}
@@ -136,7 +139,7 @@ Data frame:
     models.
 
 Docker:
-:   FIXME.
+:   FIXME. See [backwards compatible](backwards-compatible) [version control system](version-control-system).
 
 Double:
 :   Short for "double-precision floating-point number", meaning a 64-bit numeric
@@ -181,7 +184,7 @@ Falsy:
     horrible [truthy](#truthy).
 
 Feature branch:
-:   FIXME
+:   A branch within a Git repository containing commits dedicated to a specific feature, e.g. a bug fix or a new function. This branch can be merged into another branch. See [master branch](#master-branch).
 
 Field (database):
 :   FIXME
@@ -202,7 +205,7 @@ Fully-qualified name:
 Functional programming:
 :   A style of programming in which data is transformed through successive
     application of functions, rather than by using control structures such as
-    loops.  See also [higher-order function](#higher-order-function).
+    loops.  See also [higher-order function](#higher-order-function)[object-oriented programming](#object-oriented-programming).
 
 <h2 id="G">G</h2>
 
@@ -294,6 +297,10 @@ JSON:
 
 <h2 id="K">K</h2>
 
+{:auto_ids}
+knitr:
+:   FIXME. See also [R markdown](#R-markdown).
+
 <h2 id="L">L</h2>
 
 {:auto_ids}
@@ -329,20 +336,22 @@ Logical indexing:
 
 {:auto_ids}
 Markdown:
-:   FIXME
+:   A markup language with a simple syntax created in 2004 supporting text-to-HTML. The language is readible as-is. It is often used for README files. See [R markdown](R-markdown)
 
 Masking:
 :   See [logical indexing](#logical-indexing).
 
 Master branch:
+:   A dedicated, permanent, central branch which should contain a "ready product". As a new feature is developed on a separate branch, to avoid breaking the main code, it can be merged into the master branch. See [feature-branch](feature-branch).
+
+Merge (data):
 :   FIXME
 
-Merge
-:   in Git): FIXME
+Merge (Git):
+:   Merging branches in Git incorporates development histories of two branches in one. If changes are made to similar parts of the branches on both branches a commit will occur and this must be resolved before the merge will be completed.
 
 Method:
-:   An implementation of a [generic function](#generic-function) that handles objects of a specific
-    class.
+:   An implementation of a [generic function](#generic-function) that handles objects of a specific class.
 
 MIT License:
 :   A license that allows people to re-use software with no restrictions.
@@ -384,6 +393,9 @@ Null:
 <h2 id="O">O</h2>
 
 {:auto_ids}
+Object-oriented programming:
+:   FIXME
+
 Observation:
 :   FIXME
 
@@ -408,6 +420,9 @@ Parameter:
 Parse:
 :   To translate the text of a program or web page into a data structure in memory
     that the program can then manipulate.
+
+Peanuts:
+:   An American comic strip by Charles M. Schulz which has inspired the names of R versions. 
 
 Pipe operator:
 :   The `%>%` used to make the output of one function the input of the next.
@@ -460,6 +475,12 @@ Quoting function:
 <h2 id="R">R</h2>
 
 {:auto_ids}
+R Consortium:
+:   FIXME
+
+R Foundation:
+:   Non-profit founded by the R development core team providing support for R. Is a member of the [R Consortium](#R-consortium).
+
 R hub:
 :   A free platform available to check a `R` package on several different
     platforms in preparation for the CRAN submission process.
@@ -496,6 +517,12 @@ Record (database):
 Recycle:
 :   To re-use values from a shorter vector in order to generate a sequence of the
     same length as a longer one.
+
+Refactor (code):
+:   FIXME
+
+Refactor (R function):
+:   FIXME
 
 Regular expression:
 :   A pattern for matching text, written as text itself. Regular expressions are
@@ -679,7 +706,7 @@ Vectorize:
     element-by-element within loops.
 
 Version control system:
-:   FIXME
+:   A system for managing changes made to software during its development. See [Git](git).
 
 Vignette:
 :   A long-form guide used to provide details of a package beyond the README.md or
@@ -702,6 +729,10 @@ XML:
     but its complexity led many programmers to adopt [JSON](#json) instead.
 
 <h2 id="Y">Y</h2>
+
+{:auto_ids}
+YAML:
+:   FIXME
 
 <h2 id="Z">Z</h2>
 
