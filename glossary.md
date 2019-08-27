@@ -52,7 +52,7 @@ Backward-compatible:
 :   Software which is able to use earlier versions of itself (legacy) without problems.
 
 Base R:
-:   The basic functions making up the R language. See also [tidyverse](#tidyverse).
+:   The basic functions making up the R language. The base packages can be found in src/library and are not updated outside of R; their version numbers follow R version numbering. Base packages are installed and loaded with R, while priority packages are installed with base R but must be loaded prior to use. See also [tidyverse](#tidyverse).
 
 Binary:
 :   FIXME
