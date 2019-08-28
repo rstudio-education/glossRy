@@ -164,7 +164,7 @@ Data frame:
     models.
 
 Docker:
-:   FIXME. See [backwards compatible](backwards-compatible) [version control system](version-control-system).
+:   FIXME.
 
 Double:
 :   Short for "double-precision floating-point number", meaning a 64-bit numeric
@@ -659,7 +659,7 @@ SQL:
     was originally an acronym for Structured Query Language.
 
 Squash
-:   in Git): FIXME
+:   (in Git): FIXME
 
 Stack frame:
 :   FIXME
