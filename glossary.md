@@ -11,7 +11,7 @@ permalink: "/"
 Absolute path:
 :   A path that points to the same location in the filesystem regardless of where
     it's evaluated. An absolute path is the equivalent of latitude and longitude
-    in geography. See also [relative path](#relative-path).
+    in geography. Cf. [relative path](#relative-path).
 
 Absolute row number:
 :   The sequential index of a row in a table, regardless of what sections of the
@@ -58,7 +58,12 @@ Backward-compatible:
 :   Software which is able to use earlier versions of itself (legacy) without problems.
 
 Base R:
-:   The basic functions making up the R language. The base packages can be found in src/library and are not updated outside of R; their version numbers follow R version numbering. Base packages are installed and loaded with R, while priority packages are installed with base R but must be loaded prior to use. See also [tidyverse](#tidyverse).
+:   The basic functions making up the R language.
+    The base packages can be found in `src/library` and are not updated outside of R;
+    their version numbers follow R version numbering.
+    Base packages are installed and loaded with R,
+    while priority packages are installed with base R but must be loaded prior to use.
+    Cf. [tidyverse](#tidyverse).
 
 Binary:
 :   FIXME
@@ -68,7 +73,7 @@ Binding:
 
 Branch:
 :   A snapshot of a version of a Git repository. Multiple branches can capture
-    multiple versions of the same repository. See also [feature branch](#feature-branch),
+    multiple versions of the same repository. Cf. [feature branch](#feature-branch),
     [fork](#fork), [master branch](#master-branch).
 
 Breadcrumbs:
@@ -91,8 +96,8 @@ Cascading Style Sheets (CSS):
 
 Catch (exception):
 :   To accept responsibility for handling an error or other unexpected event.  R
-    prefers "handling a condition" to "catching an exception".  See also
-    [condition](#condition), [handle](#handle-condition).
+    prefers "handling a condition" to "catching an exception".  Cf. [condition](#condition),
+    [handle](#handle-condition).
 
 Character encoding:
 :   A specification of how characters are stored as bytes. The most commonly-used
@@ -116,7 +121,7 @@ Comma-Separated Values:
 
 Condition:
 :   An error or other unexpected event that disrupts the normal flow of control.
-    See also [handle](#handle-condition).
+    Cf. [handle](#handle-condition).
 
 Constant:
 :   FIXME
@@ -129,11 +134,11 @@ Constructor
 Copy-on-modify:
 :   The practice of creating a new copy of aliased data whenever there is an
     attempt to modify it so that each reference will believe theirs is the only
-    one.  See [aliasing](#aliasing).
+    one.  Cf. [aliasing](#aliasing).
 
 CRAN:
 :   The Comprehensive R Archive Network is a public repository of R packages.
-    See [base R](#base-R), [tidyverse](#tidyverse).
+    Cf. [base R](#base-R), [tidyverse](#tidyverse).
 
 Creative Commons licenses:
 :   A set of licenses that can be applied to published work.
@@ -153,11 +158,11 @@ Creative Commons licenses:
 Data frame:
 :   A two-dimensional data structure for storing tabular data in memory.
     Rows represent [records](#record-database) and columns represent [variables](variable-data).
-    See [tidy data](#tidy-data).
+    Cf. [tidy data](#tidy-data).
 
 Double square brackets:
 :   An index enclosed in `[[...]]`, used to return a single value of the
-    underlying type.  See also [single square brackets](#single-square-brackets).
+    underlying type.  Cf. [single square brackets](#single-square-brackets).
 
 Data frame:
 :   A class of objects that represents data and are typically used in fitting
@@ -171,13 +176,13 @@ Double:
     value with a fractional part and an exponent.
 
 Dynamic scoping:
-:   FIXME.  See [lexical scoping](#lexical-scoping).
+:   FIXME.  Cf. [lexical scoping](#lexical-scoping).
 
 <h2 id="E">E</h2>
 
 {:auto_ids}
 Eager evaluation:
-:   FIXME.  See also [lazy evaluation](#lazy-evaluation).
+:   FIXME.  Cf. [lazy evaluation](#lazy-evaluation).
 
 Empty vector:
 :   A vector that contains no elements.  Empty vectors have a type such as logical
@@ -210,11 +215,14 @@ Exception:
 
 {:auto_ids}
 Falsy:
-:   A horrible neologism meaning "equivalent to false". See also the equally
+:   A horrible neologism meaning "equivalent to false". Cf. the equally
     horrible [truthy](#truthy).
 
 Feature branch:
-:   A branch within a Git repository containing commits dedicated to a specific feature, e.g. a bug fix or a new function. This branch can be merged into another branch. See [master branch](#master-branch).
+:   A branch within a Git repository containing commits dedicated to a specific feature,
+    e.g., a bug fix or a new function.
+    This branch can be merged into another branch.
+    Cf. [master branch](#master-branch).
 
 Field (database):
 :   FIXME
@@ -222,8 +230,8 @@ Field (database):
 Fork:
 :   A copy of one person's Git repository that lives in another person's GitHub
     account. Changes to the content of a fork can be submitted to the [upstream
-    repository](#upstream-repository) via a [pull request](#pull-request). See
-    also [branch](#branch).
+    repository](#upstream-repository) via a [pull request](#pull-request). Cf.
+    [branch](#branch).
 
 Filter:
 :   To choose a set of [records](#record-database) (i.e., rows of a table) based
@@ -235,7 +243,8 @@ Fully-qualified name:
 Functional programming:
 :   A style of programming in which data is transformed through successive
     application of functions, rather than by using control structures such as
-    loops.  See also [higher-order function](#higher-order-function)[object-oriented programming](#object-oriented-programming).
+    loops.  Cf. [higher-order function](#higher-order-function),
+    [object-oriented programming](#object-oriented-programming).
 
 <h2 id="G">G</h2>
 
@@ -245,8 +254,8 @@ Generic function:
     class of data.
 
 Global environment:
-:   The [environment](#environment) that holds top-level definitions in R, e.g., those written
-    directly in the interpreter.
+:   The [environment](#environment) that holds top-level definitions in R,
+    e.g., those written directly in the interpreter.
 
 Global installation:
 :   Installing a package in a location where it can be
@@ -260,11 +269,11 @@ GitHub:
 
 Global installation:
 :   Installing a package in a location where it can be accessed by all users and
-    projects. See also [local installation](#local-installation).
+    projects. Cf. [local installation](#local-installation).
 
 Global variable:
 :   A variable defined outside any particular function, which is therefore visible
-    to all functions. See also [local variable](#local-variable).
+    to all functions. Cf. [local variable](#local-variable).
 
 Group:
 :   To divide data into subsets according to some criteria while leaving records
@@ -280,16 +289,16 @@ GNU Public License:
 Handle (condition):
 :   To accept responsibility for handling an error or other
     unexpected event.  R prefers "handling a condition" to "catching an
-    exception".  See also [condition](#condition), [exception](#exception).
+    exception".  Cf. [condition](#condition), [exception](#exception).
 
 Header row:
 :   If present, the first row of a CSV file that defines column names (but
-    tragically, not their data types or units).  See also [comma-separated
+    tragically, not their data types or units).  Cf. [comma-separated
     values](#comma-separated-values).
 
 Heterogeneous:
 :   Having mixed type. For example, an list can contain a mix of numbers,
-    character strings, and values of other types. See also [homogeneous](#homogeneous).
+    character strings, and values of other types. Cf. [homogeneous](#homogeneous).
 
 Higher-order function:
 :   A function that operates on other functions. For example, the higher-order
@@ -302,7 +311,7 @@ Homogeneous:
     values must all be numeric, logical, etc.
 
 Hubris:
-:   Excessive pride or self-confidence.  See also [unit test](#unit-test) (lack of).
+:   Excessive pride or self-confidence.  Cf. [unit test](#unit-test) (lack of).
 
 <h2 id="I">I</h2>
 
@@ -314,7 +323,7 @@ Integrated Development Environment (IDE):
 :   An application that helps programmers develop software.
     IDEs typically have a built-in editor, a console to execute code immediately,
     and browsers for exploring data structures in memory and files on disk.
-    See also [Read-eval-print loop](#read-eval-print-loop-repl).
+    Cf. [Read-eval-print loop](#read-eval-print-loop-repl).
 
 <h2 id="J">J</h2>
 
@@ -329,7 +338,7 @@ JSON:
 
 {:auto_ids}
 knitr:
-:   FIXME. See also [R markdown](#R-markdown).
+:   FIXME. Cf. [R markdown](#R-markdown).
 
 <h2 id="L">L</h2>
 
@@ -339,24 +348,24 @@ Lazy evaluation:
     least until after the point where it is first encountered).
 
 Lexical scoping:
-:   FIXME.  See [dynamic scoping](#dynamic-scoping).
+:   FIXME.  Cf. [dynamic scoping](#dynamic-scoping).
 
 Library:
-:   See [package](#package).
+:   Cf. [package](#package).
 
 List:
 :   A [vector](#vector) that can contain values of many different types.
 
 Literate programming:
-:   A programming paradigm that mixes prose and code.  See also [R Markdown](#r-markdown).
+:   A programming paradigm that mixes prose and code.  Cf. [R Markdown](#r-markdown).
 
 Local installation:
 :   Placing a package inside a particular project so that it is only accessible
-    within that project. See also [global installation](#global-installation).
+    within that project. Cf. [global installation](#global-installation).
 
 Local variable:
 :   A variable defined inside a function which is only visible within that
-    function. See also [closure](#closure), [global variable](#global-variable).
+    function. Cf. [closure](#closure), [global variable](#global-variable).
 
 Logical indexing:
 :   To index a vector or other structure with a vector of Booleans, keeping only
@@ -366,19 +375,26 @@ Logical indexing:
 
 {:auto_ids}
 Markdown:
-:   A markup language with a simple syntax created in 2004 supporting text-to-HTML. The language is readible as-is. It is often used for README files. See [R markdown](R-markdown)
+:   A markup language with a simple syntax intended as a replacement for HTML.
+    Markdown is often used for README files,
+    and is the basis for [R markdown](R-markdown).
 
 Masking:
-:   See [logical indexing](#logical-indexing).
+:   Cf. [logical indexing](#logical-indexing).
 
 Master branch:
-:   A dedicated, permanent, central branch which should contain a "ready product". As a new feature is developed on a separate branch, to avoid breaking the main code, it can be merged into the master branch. See [feature-branch](feature-branch).
+:   A dedicated, permanent, central branch which should contain a "ready product".
+    As a new feature is developed on a separate branch to avoid breaking the main code,
+    it can be merged into the master branch.
+    Cf. [feature-branch](feature-branch).
 
 Merge (data):
 :   FIXME
 
 Merge (Git):
-:   Merging branches in Git incorporates development histories of two branches in one. If changes are made to similar parts of the branches on both branches a commit will occur and this must be resolved before the merge will be completed.
+:   Merging branches in Git incorporates development histories of two branches in one.
+    If changes are made to similar parts of the branches on both branches
+    a commit will occur and this must be resolved before the merge will be completed.
 
 Method:
 :   An implementation of a [generic function](#generic-function) that handles objects of a specific class.
@@ -387,7 +403,7 @@ MIT License:
 :   A license that allows people to re-use software with no restrictions.
 
 Module:
-:   See [package](#package).
+:   Cf. [package](#package).
 
 Mutation:
 :   Changing data in place, such as modifying an element of an array or adding a
@@ -397,11 +413,11 @@ Mutation:
 
 {:auto_ids}
 NA:
-:   A special value used to represent data that is not available.  See also [null](#null).
+:   A special value used to represent data that is not available.  Cf. [null](#null).
 
 name collision:
 :   The ambiguity that arises when two or more things in a program that have the
-    same name are active at the same time. See also [call stack](#call-stack),
+    same name are active at the same time. Cf. [call stack](#call-stack),
     [fully-qualified name](#fully-qualified-name).
 
 Negative selection:
@@ -409,12 +425,12 @@ Negative selection:
     desired by negating their indices.
 
 Non-standard evaluation:
-:   See [lazy evaluation](#lazy-evaluation).
+:   Cf. [lazy evaluation](#lazy-evaluation).
 
 NoSQL database:
 :   Any database that doesn't use the relational model.  The awkward name comes
     from the fact that such databases don't use [SQL](#sql) as a query language.
-    See also [relational database](#relational-database).
+    Cf. [relational database](#relational-database).
 
 Null:
 :   A special value used to represent a missing object.  `NULL` is not the same as
@@ -479,25 +495,25 @@ Pseudo-random numbers:
 
 Pseudo-random number generator:
 :   A function that can generate [pseudo-random numbers](#pseudo-random-numbers).
-    See also [seed](#seed).
+    Cf. [seed](#seed).
     
 Pull request:
 :   The request to merge a new feature or correction created on a user's fork of a
     [Git](#git) repository into the [upstream repository](#upstream-repository). The
     developer will be notified of the change, review it, make or suggest
-    changes, and potentially merge it. See also [fork](#fork).
+    changes, and potentially merge it. Cf. [fork](#fork).
 
 Pull indexing:
 :   Vectorized indexing in which the value at location `i` in the index vector
     specifies which element of the source vector is being pulled into that
-    location in the result vector, i.e., `result[i] = source[index[i]]`.  See
-    also [push indexing](#push-indexing).
+    location in the result vector, i.e., `result[i] = source[index[i]]`.
+    Cf. also [push indexing](#push-indexing).
 
 Push indexing:
 :   Vectorized indexing in which the value at location `i` in the index vector
     specifies an element of the result vector that gets the corresponding
     element of the source vector, i.e., `result[index[i]] = source[i]`.  Push
-    indexing can easily produce gaps and collisions.  See also [pull
+    indexing can easily produce gaps and collisions.  Cf. [pull
     indexing](#pull-indexing).
 
 <h2 id="Q">Q</h2>
@@ -517,7 +533,8 @@ R Consortium:
 :   FIXME
 
 R Foundation:
-:   Non-profit founded by the R development core team providing support for R. Is a member of the [R Consortium](#R-consortium).
+:   A non-profit founded by the R development core team providing support for R.
+    It is a member of the [R Consortium](#R-consortium).
 
 R hub:
 :   A free platform available to check a `R` package on several different
@@ -525,7 +542,7 @@ R hub:
 
 R Markdown:
 :   A dialect of [Markdown](#markdown) that allows authors to mix prose
-    and code (usually written in R) in a single document.  See also
+    and code (usually written in R) in a single document.  Cf.
     [literate programming](#literate-programming).
 
 Raise:
@@ -544,7 +561,7 @@ Read-eval-print loop (REPL):
 :   An interactive program that reads a command typed in by a user,
     executes it, prints the result, and then waits patiently for the next
     command. REPLs are often used to explore new ideas or for debugging.
-    See also [Integrated Development Environment](#integrated-development-environment-ide).
+    Cf. [Integrated Development Environment](#integrated-development-environment-ide).
 
 Rebase:
 :   FIXME
@@ -565,17 +582,17 @@ Refactor (R function):
 Regular expression:
 :   A pattern for matching text, written as text itself. Regular expressions are
     sometimes called "regexp", "regex", or "RE", and are as powerful as they are
-    cryptic.  See [this documentation][re-doc] for more details.
+    cryptic.  Cf. [this documentation][re-doc] for more details.
 
 Relational database:
 :   A database that organizes information into tables, each of which has a fixed
     set of named fields (shown as columns) and a variable number of records
-    (shown as rows). See also [SQL](#sql), [table](#table).
+    (shown as rows). Cf. [SQL](#sql), [table](#table).
 
 Relative path:
 :   A path whose destination is interpreted relative to some other location, such
     as the current directory. A relative path is the equivalent of giving
-    directions using terms like "straight" and "left". See also [absolute
+    directions using terms like "straight" and "left". Cf. [absolute
     path](#absolute-path).
     
 Reprex:
@@ -590,7 +607,7 @@ Relative row number:
 Repository:
 :   A place where a [version control system](#version-control-system) stores
     the files that make up a project and the metadata that describes their history.
-    See also [Git](#git), [GitHub](#github).
+    Cf. [Git](#git), [GitHub](#github).
 
 Root directory:
 :   The directory that contains everything else, directly or indirectly. The root
@@ -622,7 +639,7 @@ Schema:
     content of each [table](#table).
 
 Scope:
-:   The portion of a program within which a definition can be seen and used. See
+:   The portion of a program within which a definition can be seen and used. Cf.
     [closure](#closure), [global variable](#global-variable), and [local variable](#local-variable).
 
 Script:
@@ -645,7 +662,7 @@ Signal
 
 Single square brackets:
 :   An index enclosed in `[...]`, used to select a structure from another
-    structure.  See also [double square brackets](#double-square-brackets).
+    structure.  Cf. [double square brackets](#double-square-brackets).
 
 Singleton:
 :   A set with only one element, or a [class](#class) with only one [instance](#instance).
@@ -689,7 +706,7 @@ Tidy data:
 :   Tabular data that satisfies [three conditions][tidy-data] that facilitate
     initial cleaning, and later exploration and analysis: (1) each variable
     forms a column, (2) each observation forms a row, and (3) each type of
-    observation unit forms a table.  See also [table](#table).
+    observation unit forms a table.  Cf. [table](#table).
 
 tidymodels:
 :   A collection of R packages for modeling and statistical analysis designed with
@@ -699,7 +716,7 @@ Tidyverse:
 :   A collection of R packages for operating on tabular data in consistent ways.
 
 Truthy:
-:   A truly Orwellian neologism meaning "not equivalent to false". See also
+:   A truly Orwellian neologism meaning "not equivalent to false". Cf.
     [falsy](#falsy), but only if you are able to set aside your respect for the
     English language.
 
@@ -730,7 +747,7 @@ UTF-8:
 {:auto_ids}
 Variable (program):
 :   A name in a program that has some data associated with it. A variable's value
-    can be changed after definition. See also [constant](#constant).
+    can be changed after definition. Cf. [constant](#constant).
 
 Variable (data):
 :   FIXME
@@ -749,7 +766,7 @@ Vectorize:
     element-by-element within loops.
 
 Version control system:
-:   A system for managing changes made to software during its development. See [Git](git).
+:   A system for managing changes made to software during its development. Cf. [Git](git).
 
 Vignette:
 :   A long-form guide used to provide details of a package beyond the README.md or
