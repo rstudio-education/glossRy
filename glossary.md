@@ -782,6 +782,7 @@ YAML:
 ## Contributors
 
 -   [Therese Anders](https://dornsife.usc.edu/anders)
+-   [Maria Bekker-Nielsen Dunbar](https://orcid.org/0000-0002-7249-3524)
 -   [Marly Cormar](http://www.marlycormar.com/)
 -   [Joyce Cahoon](https://jcahoon.netlify.com/)
 -   [Daniel Chen](https://chendaniely.github.io)
