@@ -5,9 +5,18 @@ permalink: "/"
 
 # glossRy
 
+<h2 id="numeric">#</h2>
+
+{:auto_ids}
++1:
+:   An upvote. FIXME
+
 <h2 id="A">A</h2>
 
 {:auto_ids}
+A/B testing:
+:   FIXME
+
 Absolute path:
 :   A path that points to the same location in the filesystem regardless of where
     it's evaluated. An absolute path is the equivalent of latitude and longitude
@@ -27,6 +36,9 @@ Aggregation function:
 Aliasing:
 :   To have two or more references to the same thing, such as a data structure
     in memory or a file on disk.
+
+Anchor tag:
+:   FIXME
 
 Application Programming Interface (API):
 :   A set of functions and procedures provided by one software library or web service
@@ -54,6 +66,9 @@ Attribute:
 <h2 id="B">B</h2>
 
 {:auto_ids}
+Back end:
+:   FIXME
+
 Backward-compatible:
 :   Software which is able to use earlier versions of itself (legacy) without problems.
 
@@ -90,6 +105,9 @@ Call stack:
     executed. `cst()` is a useful function provided in the `lobstr` package to
     visualize a call stack.
 
+Call to action:
+:   FIXME
+
 Cascading Style Sheets (CSS):
 :   A way to control the appearance of HTML.  CSS is typically used to specify
     fonts, colors, and layout.
@@ -103,6 +121,9 @@ Character encoding:
 :   A specification of how characters are stored as bytes. The most commonly-used
     encoding today is [UTF-8](#utf-8).
 
+Cherry picking (in Git):
+:   FIXME
+
 Class:
 :   FIXME
 
@@ -110,6 +131,9 @@ Closure:
 :   A set of variables defined in the same [scope](#scope) whose existence has been
     preserved after that scope has ended. Closures are one of the trickiest
     ideas in programming.
+
+Code hook:
+:   FIXME
 
 Coercion:
 :   see [type coercion](#type-coercion).
@@ -152,6 +176,9 @@ Creative Commons licenses:
     Thus, `CC-BY-NC` means "users must give attribution and cannot use commercially without permission.
     The term `CC-0` (zero, not letter 'O') is sometimes used to mean "no restrictions", i.e., the work is in the public domain.
 
+CSS selector:
+:   FIXME
+
 <h2 id="D">D</h2>
 
 {:auto_ids}
@@ -167,6 +194,9 @@ Double square brackets:
 Data frame:
 :   A class of objects that represents data and are typically used in fitting
     models.
+
+Diff (in Git):
+:   FIXME
 
 Docker:
 :   FIXME.
@@ -236,6 +266,9 @@ Fork:
 Filter:
 :   To choose a set of [records](#record-database) (i.e., rows of a table) based
     on the values they contain.
+
+Front end:
+:   FIXME
 
 Fully-qualified name:
 :   An unambiguous name of the form `package::thing`.
@@ -310,6 +343,9 @@ Homogeneous:
 :   Having a single type. For example, a [vector](#vector) must be homogeneous: its
     values must all be numeric, logical, etc.
 
+Hook:
+:   See "code cook".
+
 Hubris:
 :   Excessive pride or self-confidence.  Cf. [unit test](#unit-test) (lack of).
 
@@ -324,6 +360,9 @@ Integrated Development Environment (IDE):
     IDEs typically have a built-in editor, a console to execute code immediately,
     and browsers for exploring data structures in memory and files on disk.
     Cf. [Read-eval-print loop](#read-eval-print-loop-repl).
+
+Interactive rebase (in Git):
+:   FIXME
 
 <h2 id="J">J</h2>
 
@@ -350,6 +389,9 @@ Lazy evaluation:
 Lexical scoping:
 :   FIXME.  Cf. [dynamic scoping](#dynamic-scoping).
 
+LGTM (Looks Good to Me):
+:   FIXME
+
 Library:
 :   Cf. [package](#package).
 
@@ -374,6 +416,9 @@ Logical indexing:
 <h2 id="M">M</h2>
 
 {:auto_ids}
+Makefile:
+:   FIXME
+
 Markdown:
 :   A markup language with a simple syntax intended as a replacement for HTML.
     Markdown is often used for README files,
@@ -415,10 +460,16 @@ Mutation:
 NA:
 :   A special value used to represent data that is not available.  Cf. [null](#null).
 
-name collision:
+Name collision:
 :   The ambiguity that arises when two or more things in a program that have the
     same name are active at the same time. Cf. [call stack](#call-stack),
     [fully-qualified name](#fully-qualified-name).
+
+Namespace:
+:   FIXME
+
+Native app:
+:   FIXME
 
 Negative selection:
 :   To specify the elements of a vector or other data structure that aren't
@@ -679,6 +730,9 @@ Squash
 :   (in Git): FIXME
 
 Stack frame:
+:   FIXME
+
+Stash (in Git):
 :   FIXME
 
 String:
