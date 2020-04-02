@@ -69,5 +69,5 @@ members of the project's leadership.
 This Code of Conduct is adapted from the [Contributor Covenant][covenant]
 version 1.4.
 
-[email]: mailto:gvwilson@third-bit.com
+[email]: mailto:greg.wilson@rstudio.com
 [covenant]: https://www.contributor-covenant.org

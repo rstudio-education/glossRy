@@ -21,5 +21,5 @@ and to make your contribution available under the terms of our [license](LICENSE
 All contributors will be acknowledged by name unless they request otherwise.
 
 [ghp]: https://pages.github.com
-[issues]: https://github.com/gvwilson/glossRy/issues
-[pr]: https://github.com/gvwilson/glossRy/pulls
+[issues]: https://github.com/rstudio-education/glossRy/issues
+[pr]: https://github.com/rstudio-education/glossRy/pulls

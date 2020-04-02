@@ -1,0 +1,15 @@
+<main>
+{% assign heading = nil %}
+{% for entry in site.data.glossary %}
+  {% assign current = entry.term | slice: 0 | upcase %}
+  {% if current != heading %}
+    {% if heading != nil %}</dl>{% endif %}
+    {% assign heading = current %}
+    <h2 id="{{current}}">{{current}}</h2>
+    <dl>
+  {% endif %}
+  <dt id="{{entry.slug}}">{{entry.term | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</dt>
+  <dd>{{entry.en | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</dd>
+{% endfor %}
+</dl>
+</main>

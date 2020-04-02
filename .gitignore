@@ -2,5 +2,6 @@
 .DS_Store
 .Rhistory
 .Rproj.user
+.jekyll-cache
 .jekyll-metadata
 _site

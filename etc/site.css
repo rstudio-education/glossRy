@@ -5,19 +5,25 @@ body {
     line-height: 120%;
 }
 
+header {
+    margin-left: 2em;
+}
+
 nav {
+    height: 100%;
+    width: 2em;
+    padding-left: 1em;
     position: fixed;
+    z-index: 1;
     top: 0;
-    width: 60em;
-    background-color: #f8f8f8;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    border-bottom: solid 2px #808080;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 1em;
 }
 
 main {
-    margin-top: 1em;
+    margin-left: 2em;
+    padding: 0px 10px;
 }
 
 footer {
@@ -44,4 +50,5 @@ dt {
 
 dd {
     margin-left: 1em;
+    margin-bottom: 0.25em;
 }
