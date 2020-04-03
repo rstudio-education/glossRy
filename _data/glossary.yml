@@ -87,7 +87,8 @@
 - term: Backward-compatible
   slug: backward-compatible
   en: >
-    Software which is able to use earlier versions of itself (legacy) without problems.
+    Software which is able to be used the same way as earlier versions of itself
+    without problems.
 
 - term: Base R
   slug: base-r
